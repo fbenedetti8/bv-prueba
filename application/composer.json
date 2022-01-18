@@ -1,0 +1,9 @@
+{
+    "require": {
+        "ip2location/ip2location-php": "7.*",
+        "intervention/image": "^2.4",
+        "aws/aws-sdk-php": "^3.135",
+        "dompdf/dompdf": "^1.0",
+        "tecnickcom/tc-lib-barcode": "^1.15"
+    }
+}

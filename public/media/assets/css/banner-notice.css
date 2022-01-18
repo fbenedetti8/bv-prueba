@@ -1,0 +1,61 @@
+.banner-notice{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.banner-notice .type-1 .title{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.banner-notice .type-1 .title h3{
+  font-family: "Rift Soft";
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.banner-notice .type-1 .title h3 > span{
+  color: #00adee;
+}
+
+.banner-notice .type-1 .group-button .btn{
+  padding: 6px 75px;
+}
+
+@media (max-width:1200px){
+  .banner-notice .type-1 .title h3{
+    font-size: 26px;
+  }
+}
+
+@media (max-width:992px){
+  .banner-notice .type-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .banner-notice .type-1 .group-button {
+    align-self: center;
+  }
+}
+
+@media (max-width:768px){
+  .banner-notice .type-1 .group-button .btn {
+      padding: 6px 35px;
+  }
+}
+
+@media (max-width:560px){
+  .banner-notice .type-1 .title{
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-notice .type-1 .group-button{
+    margin-top: 20px;
+  }
+  .banner-notice{
+    margin: 30px 0;
+  }
+}

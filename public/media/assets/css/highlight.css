@@ -1,0 +1,221 @@
+.highlight .main_banner {
+	position: relative
+}
+
+.box-info {
+	position: absolute;
+	top: -45px;
+	left: 15px;
+	width: 260px
+}
+
+.box-info.title{
+	color: #fff
+}
+
+.box-info.title h1{
+	font-family: "Rift";
+	font-weight: bold;
+	margin: 0;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+.box-info.title h1 span{
+	background-color: #22275b;
+	padding-left: 2%;
+	width: auto;
+	display: inline-block;
+	padding-right: 7%;
+}
+
+/*effects lines*/
+.highlight{
+	position: relative;
+}
+
+
+
+.highlight .selectors {
+	font-size: 0;
+	max-width: 900px
+}
+
+.highlight .selectors_wrapper {
+	padding: 15px;
+	padding-top: 60px
+}
+
+.highlight .selectors .selectric {
+	border: none;
+	box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.07)
+}
+
+.highlight .selectors .selectric-wrapper {
+	width: 100%;
+	margin: 5px 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.highlight .selectors .selectric .selectric-items {
+	background-color: #ff5c5c;
+	border-radius: 0
+}
+
+.highlight .selectors .selectric-items li {
+	position: relative;
+	background-color: transparent;
+	font-size: 14px;
+	padding: 10px 65px
+}
+
+.highlight .selectors .selectric-items li:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 90%;
+		-webkit-transform: translate(-50%, 0);
+		-moz-transform: translate(-50%, 0);
+		-ms-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.2)
+}
+
+.highlight .selectors .selectric-items li:hover {
+	background-color: rgba(255, 255, 255, 0.3)
+}
+
+.highlight .selectors .selectric-label {
+    border-radius: 0;
+	color: #22275b;
+	width: 100%;
+	margin: auto;
+	font-size: 13px;
+	padding: 1px 0;
+    padding-left: 40px
+}
+
+.highlight .selectors .selectric-place_selector .selectric-label:after,
+.highlight .selectors .selectric-date_selector .selectric-label:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 10px;
+		-webkit-transform: translate(0, -50%);
+		-moz-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	width: 21px;
+	height: 29px;
+	display: inline-block;
+	background: url('../images/icons/icon-calendar.png') center center no-repeat;
+	background-size: 100% auto
+}
+
+.highlight .selectors .selectric-place_selector .selectric-label:after {
+	background-image: url('../images/icons/icon-world.png');
+	height: 27px
+}
+
+.highlight .selectors .selectric-open .selectric-label,
+.highlight .selectors .selectric-open .selectric-items {
+	border-radius: 0;
+	background-color: #ff5c5c;
+	color: white
+}
+
+.highlight .selectors .selectric-open .selectric-items {
+	border: none
+}
+
+.highlight .selectors .selectric-open .selectric-items li {
+	color: white
+}
+
+.highlight .selectors .selectric-open .selectric-label:before {
+	background-image: url('../images/icons/icon-arrow-down-w.png')
+}
+
+.highlight .selectors .selectric-open.selectric-date_selector .selectric-label:after {
+	background-image: url('../images/icons/icon-calendar-w.png')
+}
+
+.highlight .selectors .selectric-open.selectric-place_selector .selectric-label:after {
+	background-image: url('../images/icons/icon-world-w.png')
+}
+
+.highlight .main_wrapper {
+	background-color: #6cefd6
+}
+
+.highlight .main_wrapper .cont-info {
+	position: relative
+}
+
+.highlight .selectric-hide-select.selectric-is-native {
+	z-index: 1;
+	display: none
+}
+
+
+
+@media ( min-width: 992px ){
+
+	.highlight .selectric-hide-select.selectric-is-native {
+		display: block
+	}
+
+	.highlight .selectors .selectric-place_selector .selectric-label:after,
+	.highlight .selectors .selectric-date_selector .selectric-label:after {
+		left: 25px;
+		width: 27px
+	}
+
+	.highlight .main_wrapper .cont-info {
+		position: static
+	}
+
+	.main_wrapper {
+		position: relative
+	}
+
+	.box-info {
+		top: 60px;
+	    left: 25px
+	}
+
+	.highlight .selectors {
+		position: absolute;
+		bottom: 80px;
+		left: 50%;
+		width: 100%;
+			-webkit-transform: translate(-50%, 0);
+			-moz-transform: translate(-50%, 0);
+			-ms-transform: translate(-50%, 0);
+		transform: translate(-50%, 0)
+	}
+
+	.highlight .selectors_wrapper {
+		padding: 0;
+		margin: 0 -1%
+	}
+
+	.highlight .selectors .selectric-label {
+		font-size: 15px;
+		padding: 6px 0;
+	    padding-left: 65px
+	}
+
+	.highlight .selectors .selectric-wrapper {
+		width: 48%;
+		margin: 0 1%
+	}
+
+	.highlight .selectors .selectric-items li {
+		font-size: 15px
+	}
+
+}

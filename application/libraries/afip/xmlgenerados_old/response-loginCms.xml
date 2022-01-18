@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><loginCmsResponse xmlns="http://wsaa.view.sua.dvadac.desein.afip.gov"><loginCmsReturn>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;loginTicketResponse version=&quot;1&quot;&gt;
+    &lt;header&gt;
+        &lt;source&gt;CN=wsaa, O=AFIP, C=AR, SERIALNUMBER=CUIT 33693450239&lt;/source&gt;
+        &lt;destination&gt;C=ar, O=buenas vibras s.r.l., SERIALNUMBER=CUIT 30711604932, CN=buenas-vibras.com.ar&lt;/destination&gt;
+        &lt;uniqueId&gt;2589148289&lt;/uniqueId&gt;
+        &lt;generationTime&gt;2017-06-12T13:34:37.190-03:00&lt;/generationTime&gt;
+        &lt;expirationTime&gt;2017-06-13T01:34:37.190-03:00&lt;/expirationTime&gt;
+    &lt;/header&gt;
+    &lt;credentials&gt;
+        &lt;token&gt;PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIyNTI2OTcxMDA2IiBzcmM9IkNOPXdzYWEsIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxNDk3Mjg1MjE3IiBleHBfdGltZT0iMTQ5NzMyODQ3NyIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPWJ1ZW5hcyB2aWJyYXMgcy5yLmwuLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMDcxMTYwNDkzMiwgQ049YnVlbmFzLXZpYnJhcy5jb20uYXIiIHNlcnZpY2U9IndzZmUiIHJlZ21ldGhvZD0iMjIiIGVudGl0eT0iMzM2OTM0NTAyMzkiIGF1dGhtZXRob2Q9ImNtcyI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24gcmVsdHlwZT0iNCIga2V5PSIzMDcxMTYwNDkzMiIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgoK&lt;/token&gt;
+        &lt;sign&gt;cZ/v/D8JbExJfd5TZSuuUFQKO+X6Al7glic+T5seGam4JB/Oxus/pQSnjFPYOVp7B50LdQqN3cV2MymxgXn7zam9elzA8LdCdF9hASLI/70VcM/jcooxXxF2p0KhIfv02beRrLFqauUAd9ROrkGiaQY66ApIn9VnpovTzdgmln4=&lt;/sign&gt;
+    &lt;/credentials&gt;
+&lt;/loginTicketResponse&gt;
+
+</loginCmsReturn></loginCmsResponse></soapenv:Body></soapenv:Envelope>

@@ -1,0 +1,75 @@
+.module__subHeader .cont-info{
+  height: 120px;
+  background-color: rgba(217,248,255,1);
+  margin-top: 75px;
+}
+
+.module__subHeader .cont-info .title{
+  float: left;
+  margin-top: -15px;
+}
+
+.module__subHeader .cont-info .bg{
+  float: right;
+  position: relative;
+  height: 120px;
+}
+
+.module__subHeader .cont-info .bg figure{
+  position: absolute;
+  right: 0;
+}
+
+.module__subHeader .cont-info .title .text{
+  font-family: "rift soft";
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.module__subHeader .cont-info .title .volant{
+  font-family: "rift soft";
+  font-weight: bold;
+  font-size: 22px;
+  background-color: #00205f;
+  color: #fff;
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 5px;
+  margin-bottom: 0;
+}
+
+
+
+@media (max-width:992px){
+  .module__subHeader .cont-info {
+    height: 90px;
+    margin-top: 65px;
+  }
+  .module__subHeader .cont-info .bg{
+    height: 90px;
+  }
+  .module__subHeader .cont-info .title .text{
+    font-size: 32px;
+  }
+}
+
+
+@media (max-width:768px){
+  .module__subHeader .cont-info {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    background-color: transparent;
+    margin-top: 70px;
+  }
+  .module__subHeader .cont-info .title{
+    background-color: rgba(217,248,255,1);
+    z-index: 1;
+    padding: 16px 18px;
+  }
+  .module__subHeader .cont-info .bg{
+    background-color: rgba(217,248,255,0.8);
+  }
+}

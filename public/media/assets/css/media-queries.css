@@ -1,0 +1,2027 @@
+@media (min-width: 1200px){
+
+	.container {
+		width: 1024px
+	}
+
+}
+
+
+
+@media (max-width: 1199px){
+
+	#header .submenu li a {
+		font-size: 19px
+	}
+
+	#footer .newsletter p {
+		font-size: 17px
+	}
+
+	#footer .newsletter p .icono {
+		margin-right: 20px
+	}
+
+	#footer .contenido .escribinos > div a:first-child {
+		margin-right: 30px
+	}
+
+	#footer .zocalo .row .legales p {
+		font-size: 14px
+	}
+
+	#checkout #main .aside_content .contenido {
+		width: 700px
+	}
+
+	#checkout h1 {
+		font-size: 19px
+	}
+
+	#checkout h2 {
+		font-size: 17px;
+		margin-top: 10px;
+		margin-bottom: 15px
+	}	
+	
+	#checkout #main .contenido .pago {
+		margin-top: 20px
+	}
+
+	.item_destino > div p strong {
+		font-size: 17px
+	}
+
+	.item_destino > div.dias p,
+	.item_destino > div.salida p,
+	.item_destino > div p {
+		font-size: 17px
+	}
+
+	.item_destino > div.precio_reserva > p strong,
+	.item_destino > div.precio_final p strong {
+		font-size: 23px
+	}
+
+	#checkout #main .aside_content .contenido .row > div.fw {
+		width:100% !important; 
+	}
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+	.item_destino > div.precio_final p.precio_final strong {
+		font-size: 19px
+	}
+
+	.item_destino > div.precio_final p.precio_final strong span {
+		font-size: 17px
+	}
+
+	.item_destino > div.mas_info a {
+		font-size: 13px
+	}
+
+}
+
+
+
+@media (min-width: 840px){
+
+	.viajes_wrapper .owl-nav .owl-next,
+	.viajes_wrapper .owl-nav .owl-prev {
+		display: block
+	}
+
+}
+
+
+@media (min-width: 992px){
+
+	#header.sticky .submenu li a {
+		font-size: 18px
+	}
+
+	#header.sticky .submenu li.logo a {
+		max-width: 160px;
+		padding-top: 10px
+	}
+
+	#header .submenu {
+		display: block !important
+	}
+
+	.tooltip_btn:hover .tooltip {
+		display: block !important
+	}
+
+	.banner .info .detalles .title {
+		display: none
+	}
+
+	#checkout.lista_de_espera_proximamente .info .detalles .title {
+		display: inline-block !important
+	}
+
+	#destino .banner .info .detalles .title,
+	#checkout.lista_de_espera .info .detalles .title,
+	#checkout.paquete .banner .info .detalles .title {
+		display: block !important
+	}
+
+	#header .logo a img {
+		width: 60px;
+		max-height: 67px
+	}
+
+	#header.sticky .logo a img {
+		width: 160px;
+		max-height: 70px
+	}
+
+}
+
+
+
+@media only screen and (max-device-width: 991px){
+
+	#checkout #main .aside_content .panel-group .num_paso {
+		line-height: 26px
+	}
+
+	#checkout #main .aside_content .panel-group:nth-child(2) .num_paso {
+		line-height: 1px;
+		background-color: red !important
+	}
+
+	.popup.contacto .btn_tel,
+	#footer .btn_tel {
+		padding-top: 4px !important
+	}
+
+}
+
+
+
+@media (max-width: 991px){
+
+	sup {
+    	font-size: 70%;
+	    top: -1px
+	}
+
+	.popup.terminos > div {
+		left: 0;
+		top: 0;
+		transform: none;
+			-webkit-transform: none;
+			-moz-transform: none;
+			-ms-transform: none;
+		max-height: auto;
+		max-width: auto;
+		max-height: initial;
+		max-width: initial;
+	}
+
+	.messenger_button {
+		box-shadow: none
+	}
+
+	.messenger_button span + span {
+		font-size: 17px;
+		margin-left: 10px
+	}
+
+	#header {
+		position: fixed !important;
+		top: 0;
+		left: 0;
+		width: 100%;
+		transition: top 0.2s linear
+	}
+
+	#header.fixed {
+		top: -100px;
+		transition: top 0.2s linear
+	}
+
+	#header .submenu {
+		background-color: #20346f;
+		position: fixed;
+	    top: 6px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		display: none;
+		padding-top: 70px
+	}
+
+	#header .submenu.close {
+		display: none
+	}
+
+	#header .submenu:before {
+		display: none
+	}
+
+	#header .submenu li,
+	#header .submenu li a {
+		display: block;
+		position: relative
+	}
+
+	#header .submenu li {
+		margin-top: 1px
+	}
+
+	#header .submenu .menu_2 {
+    	padding-top: 10px
+	}
+
+	#header .submenu .menu_2 > div li a {
+    	padding: 6px 20px
+	}
+
+	#header .submenu li > ul > li.active,
+	#header .submenu li > ul > li:hover {
+		background-color: #04275D
+	}
+
+	#header .submenu li > ul {
+		padding-top: 10px
+	}
+
+	#header .submenu li > a {
+		padding: 15px 25px;
+		text-align: left;
+		font-size: 21px
+	}
+
+	#header .submenu li a > div {
+		padding: 0 25px
+	}
+
+	#header .submenu li > ul > li:first-child {
+		padding-top: 0
+	}
+
+	#header .submenu > .menu_1 {
+		text-align: left
+	}
+
+	#header .submenu li > ul > li a {
+		color: white !important
+	}
+
+	#header .submenu > .menu_1 .container > ul > li > a:after,
+	#header .submenu > .menu_1 .container > ul > li > a:before {
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 25px;
+		display: block;
+		width: calc(100% - 50px);
+		height: 1px;
+		background-color: #adadad
+	}
+
+	#header .submenu .lista_espera_tag {
+		background-color: #adadad;
+	    margin-left: 2px;
+	    font-size: 17px;
+	    padding-top: 3px;
+	    padding-bottom: 3px;
+	    color: #20346f
+	}
+
+	#header .submenu .menu_1 .lista_espera a {
+		color: white !important
+	}
+
+	#header .submenu > .menu_1 .container > ul > li > a:after {
+		top: initial;
+		bottom: 100%;
+	}
+
+	#header .submenu > .menu_1 .container > ul > li:first-child a:after,
+	#header .submenu > .menu_1 .container > ul > li:last-child a:before,
+	#header .submenu > .menu_1 .container > ul > li.logo + li a:after {
+		display: none
+	}
+
+	#header .submenu li > ul {
+		display: block !important;
+		position: static;
+		width: 100%;
+		box-shadow: none;
+		background-color: transparent
+	}
+
+	#header .submenu li > ul:before {
+		display: none
+	}
+
+	#header .submenu li > ul li a {
+		border: none
+	}
+
+	#header .submenu > .menu_1 .container > ul > li > ul {
+		padding-bottom: 10px
+	}
+
+	#header .submenu > .menu_1 .container > ul > li > ul a {
+		padding: 5px 0;
+		padding-left: 40px
+	}
+
+	#header .menu {
+		box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1)
+	}
+
+	#header .menu .logo {
+		float: none;
+		margin: auto;
+		width: 70px;
+		padding: 3px 0;
+		padding-top: 10px;
+		display: block
+	}
+
+	#header .menu .logo img {
+		max-height: 41px;
+		width: 100%
+	}
+
+	#header .menu-list,
+	#header .submenu {
+		display: none
+	}
+
+	#main {
+		margin-top: 55px !important
+	}
+
+	#main > .container > h1,
+	#main > .container > h2 {
+		line-height: 22px
+	}
+
+	#main > .container > h1 {
+		line-height: 30px
+	}
+
+	#main > .container > h1 {
+		font-size: 26px
+	}
+
+	#main > .container > h2 {
+		margin-top: 10px;
+		font-size: 19px
+	}
+
+	#footer .newsletter .newsletter_text {
+		display: block
+	}
+
+	#footer .newsletter p {
+		text-align: center;
+		display: block;
+		margin-top: 0
+	}
+
+	#footer .newsletter form {
+		float: none;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		display: block
+	}
+
+	#footer .newsletter form > input:first-child {
+		width: 100%
+	}
+
+	#footer .newsletter form .tooltip {
+		left: 0
+	}
+
+	#footer .contenido p.tel {
+		margin-bottom: 5px !important
+	}
+
+	#footer .contenido .legales a {
+		margin-left: 10px
+	}
+
+	#footer .zocalo {
+		background-color: white;
+		padding-top: 10px;
+		padding-bottom: 0;
+		border-color: #76f0d9;
+		border-width: 2px
+	}
+
+	#footer .zocalo .container {
+		width: 100%
+	}
+
+	#footer .zocalo .row > div {
+		background-color: #6cefd6;
+		padding: 20px 0
+	}
+
+	#footer .zocalo .row .legales {
+		max-width: 210px
+	}
+
+	#footer .zocalo .row .legales p {
+		color: #20255b;
+		font-size: 15px
+	}
+
+	#footer .zocalo .row .legales p span {
+		display: none
+	}
+
+	#footer .zocalo .row,
+	#footer .zocalo .row .id4you {
+		text-align: center
+	} 
+
+	#footer .zocalo .row > aside,
+	#footer .zocalo .row > div,
+	#footer .zocalo .row > div > * {
+		width: 100% !important
+	}
+
+	#footer .zocalo .row > div {
+		padding: 0 15px;
+		padding-top: 5px
+	}
+
+	#footer .zocalo .row .id4you {
+		padding: 7px 0 15px
+	}
+
+	#footer .zocalo .row .id4you a {
+		display: block
+	}
+
+	#footer .zocalo .row .id4you img {
+		float: none;
+		margin: auto;
+		max-width: 200px
+	}
+
+	#footer .redes li.facebook {
+		padding-top: 6px
+	}
+
+	#footer .redes li.instagram {
+		margin-left: 10px;
+		padding-top: 10px
+	}
+
+	#footer .redes li.instagram a {
+		width: 43px;
+		height: 26px;
+		background-size: 30px
+	}
+
+	#footer .redes li.instagram a img {
+		width: 26px
+	}
+
+	#footer .redes li.whatsapp {
+		padding-top: 8px;
+		padding-left: 15px
+	}
+
+	#footer .redes li {
+	    border-left: 1px solid #ebebeb;
+	    margin-left: 17px;
+	    height: 45px
+	}
+
+	#footer .redes li:first-child {
+		border-left: 0
+	}
+
+	#footer .redes li:first-child a {
+		padding-left: 0
+	}
+
+	#footer .redes li a {
+		font-size: 27px;
+		padding-left: 17px
+	}
+
+	#footer .links_redes {
+		margin-bottom: 8px
+	}
+
+	.footer .newsletter form .tooltip {
+		top: 153%;
+		left: 0
+	}
+
+	#footer .tooltip.exito > span {
+		font-size: 14px
+	}
+
+	.medios_pago .item_pago > a .icon-right {
+		display: none
+	}
+
+	#main .conocenos {
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 0;
+		background: #6cefd6;
+			background: -webkit-linear-gradient(-15deg, #e3fcff 0%, #6cefd6 80%);
+			background: -moz-linear-gradient(-15deg, #e3fcff 0%, #6cefd6 80%);
+			background: -ms-linear-gradient(-15deg, #e3fcff 0%, #6cefd6 80%);
+		background: linear-gradient(-15deg, #e3fcff 0%, #6cefd6 80%);
+	}
+
+	#main .conocenos p {
+		font-size: 16px;
+		line-height: 24px
+	}
+
+	#main .conocenos .owl-carousel  {
+		margin-top: 20px
+	}
+
+	#main .conocenos .seguinos {
+	    padding-top: 40px
+	}
+
+	#main .conocenos .seguinos a {
+		margin-left: 4px;
+		margin-right: 4px
+	}
+
+	.item_viaje {
+		margin-bottom: 20px
+	}
+
+	.item_viaje .detalle h3 {
+		font-size: 12px;
+		line-height: 14px
+	}
+
+	.item_viaje .item_tag {
+		opacity: 1 !important
+	}
+
+	#checkout .banner .container,
+	#destino .banner .container {
+		min-height: 195px
+	}
+
+	#categoria .banner {
+	    background: #00efd6 !important;
+	    background: -webkit-linear-gradient(50deg, #00efd6 0%, #a8e4e9 50%, #4ea8f9 100%) !important;
+	    background: -moz-linear-gradient(50deg, #00efd6 0%, #a8e4e9 50%, #4ea8f9 100%) !important;
+	    background: -ms-linear-gradient(50deg, #00efd6 0%, #a8e4e9 50%, #4ea8f9 100%) !important;
+	    background: linear-gradient(50deg, #00efd6 0%, #a8e4e9 50%, #4ea8f9 100%) !important
+	}
+
+	#categoria .banner:before {
+		content: normal
+	}
+
+	#categoria .banner .container {
+		min-height: auto
+	}
+
+	#categoria .banner .detalles,
+	#categoria .banner .detalles .title,
+	#categoria .banner .info .descripcion {
+		color: #083171 !important;
+	}
+
+	.banner .detalles span {
+		line-height: 16px;
+	}
+
+	.banner .fb-like,
+	.banner .fb-share-button,
+	.banner .twitter-share-button {
+		display: none !important
+	}
+
+	#categoria .banner .detalles .title,
+	#checkout.lista_de_espera .banner .detalles .title {
+		margin-top: 23px;
+		display: block
+	}
+
+	#categoria .banner span + p {
+		margin-bottom: 10px
+	}
+
+	#categoria .banner .descripcion,
+	#categoria .banner .descripcion strong {
+		font-size: 19px;
+		font-weight: normal
+	}
+
+	#categoria .info {
+		position: static;
+		padding-bottom: 15px;
+		padding-left: 0
+	}
+
+	#checkout .messenger,
+	#destino .messenger,
+	#categoria .messenger {
+		position: static
+	}
+
+	#checkout .messenger_button,
+	#destino .messenger_button,
+	#categoria .messenger_button {
+		background-color: #083171;
+		font-weight: bold;
+		font-size: 14px;
+		color: white;
+		width: 49%;
+		text-align: center
+	}
+
+	#destino .otros_destinos > h3,
+	#destino .bloque_destino > h2,
+	#categoria .bloque_viajes > h3 {
+		border: none;
+		text-align: center;
+		margin-bottom: 0
+	}
+
+	#destino .otros_destinos > h3,
+	#destino .bloque_destino > h2 {
+		text-align: left
+	}
+
+	#destino .otros_destinos > h3,
+	#destino .bloque_destino > h2,
+	#categoria .bloque_viajes > h3 {
+		font-size: 18px
+	}
+
+	.item_destino p.precio_final .price_title {
+		display: block;
+	    margin-bottom: 5px;
+	}
+
+	#categoria.estacional .banner .info {
+		padding-bottom: 0
+	}
+
+	#categoria.estacional .banner .info .detalles {
+		text-align: center
+	}
+
+	#categoria.estacional .banner .info .detalles .title {
+		font-size: 22px;
+		text-align: center !important;
+		margin-bottom: 0;
+		margin-top: 23px
+	}
+
+	#categoria.estacional .info .detalles .descripcion {
+		font-size: 17px
+	}
+
+	#checkout #main .aside_content .contenido {
+		width: 100%;
+		padding-top: 10px
+	}
+
+	#checkout #main .contenido .detalle_compra {
+		margin-top: 20px
+	}
+
+	#checkout #main .contenido .detalle_compra .detalle_aside,
+	#checkout #main .contenido .detalle_compra {
+		position: static !important
+	}
+	
+	#checkout #main .contenido .detalle_compra .detalle_aside {
+		display: block !important;
+		width: 100%
+	}
+
+	#checkout.paquete #main .contenido .detalle_compra .detalle_aside {
+		box-shadow: none
+	}
+	
+	#checkout #main .contenido .detalle_compra .container {
+		padding: 0;
+		width: 100%
+	}
+
+	#checkout #main .contenido .check_content.terminos {
+		float: none
+	}
+
+	#checkout #main .aside_content .contenido .panel-group .button {
+		width: 100%
+	}
+
+	#checkout #main > .container > h1 {
+		font-size: 18px
+	}
+
+	#checkout #main .aside_content {
+		padding-bottom: 0
+	}
+
+	#checkout #main .aside_content .contenido {
+		padding-bottom: 40px
+	}
+
+	#checkout.lista_de_espera_proximamente #main .aside_content .contenido {
+		padding-bottom: 20px
+	}
+
+	#checkout #main .aside_content .contenido .row > label > span:first-child {
+		font-size: 15px
+	}
+
+
+	#checkout #main .calculador {
+		background-color: #e1e1e1;
+		box-shadow: 2px 2px 2px rgba(194, 194, 194, 0.75)
+	}
+
+	#checkout.paquete #main .aside_content .contenido h3,
+	#checkout.paquete #main .aside_content .contenido h4 {
+		font-size: 19px;
+		line-height: initial;
+		border-bottom: none
+	}
+
+	#checkout.paquete #main .aside_content .contenido h4 {
+		margin-bottom: 0;
+		font-size: 16px
+	}
+
+	#checkout.paquete #main .aside_content .contenido > div.alojamiento {
+		margin-top: 0
+	}
+
+	#checkout #main .calculador label:first-child {
+		width: 100%
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra,
+	#checkout.paquete #main .contenido .detalle_compra {
+		position: fixed !important;
+		top: -200px !important;
+		left: 0;
+		width: 100%;
+		z-index: 4;
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.19);
+		transition: top 0.3s linear
+	}
+
+	#checkout #main .reserva .dato {
+		width: 100%
+	}
+
+	#checkout #main .reserva .dato span {
+		display: inline-block
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra.fixed,
+	#checkout.paquete #main .contenido .detalle_compra.fixed {
+		top: 0 !important;
+		transition: top 0.3s linear
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .info_detalle,
+	#checkout.paquete #main .contenido .detalle_compra .info_detalle {
+		display: none
+	}
+
+	#checkout.lista_de_espera #main .aside_content .contenido .detalle_compra p strong,
+	#checkout.paquete #main .aside_content .contenido .detalle_compra p strong {
+		font-weight: 600;
+		font-weight: normal;
+		margin-right: 1px
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .moneda,
+	#checkout.paquete #main .contenido .detalle_compra .moneda {
+		background-color: #ebebeb;
+		padding: 3px 15px;
+		margin-left: -15px;
+		margin-right: -15px
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .moneda label,
+	#checkout.paquete #main .contenido .detalle_compra .moneda label {
+		margin-bottom: 0;
+		margin-left: 20px
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .moneda input,
+	#checkout.paquete #main .contenido .detalle_compra .moneda input {
+		margin: 0;
+		margin-right: 3px;
+		vertical-align: middle
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .moneda span,
+	#checkout.paquete #main .contenido .detalle_compra .moneda span {
+		font-weight: 300;
+		font-size: 12px;
+		width: auto !important;
+		font-weight: normal;
+		vertical-align: middle;
+		color: #373737
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .moneda span strong,
+	#checkout.paquete #main .contenido .detalle_compra .moneda span strong {
+		font-size: 12px !important;
+		color: #373737
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .moneda span:first-child,
+	#checkout.paquete #main .contenido .detalle_compra .moneda span:first-child {
+		margin-right: 20px
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .reserva,
+	#checkout.paquete #main .contenido .detalle_compra .reserva {
+		padding: 0 15px;
+		margin: 0
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .detalle_aside,
+	#checkout.lista_de_espera #main .contenido .detalle_compra .reserva,
+	#checkout.paquete #main .contenido .detalle_compra .detalle_aside,
+	#checkout.paquete #main .contenido .detalle_compra .reserva {
+		background-color: white !important
+	}
+
+	#checkout.lista_de_espera #main .aside_content .contenido .detalle_compra .detalle_aside,
+	#checkout.lista_de_espera #main .detalle_aside .reserva p,
+	#checkout.paquete #main .aside_content .contenido .detalle_compra .detalle_aside,
+	#checkout.paquete #main .detalle_aside .reserva p {
+		font-size: 15px
+	}
+
+	#checkout.lista_de_espera #main .detalle_aside .reserva .info_detalle,
+	#checkout.paquete #main .detalle_aside .reserva .info_detalle {
+		margin-top: 0
+	}
+
+	#checkout.lista_de_espera #main .detalle_aside .reserva .info_detalle span,
+	#checkout.lista_de_espera #main .detalle_aside .reserva .info_detalle p,
+	#checkout.paquete #main .detalle_aside .reserva .info_detalle span,
+	#checkout.paquete #main .detalle_aside .reserva .info_detalle p {
+		margin: 0;
+		color: #808080;
+		line-height: 10px;
+		width: 50%
+	}
+
+	#checkout #main .detalle_aside .reserva > div.precio_reserva {
+		line-height: 9px
+	}
+
+	#checkout #main .detalle_aside .reserva p.precio_final {
+		margin: 0
+	}
+
+	#checkout.lista_de_espera #main .detalle_aside .reserva .info_detalle span strong,
+	#checkout.paquete #main .detalle_aside .reserva .info_detalle span strong {
+		font-size: 11px
+	}
+
+	#checkout #main .contenido > .detalle_compra .reserva p.precio_final > span {
+		display: inline-block;
+		font-size: 20px
+	}
+
+	#checkout.lista_de_espera #main .contenido > .detalle_compra .reserva p.precio_final > span,
+	#checkout.paquete #main .contenido > .detalle_compra .reserva p.precio_final > span {
+		font-size: 14px
+	}
+
+	#checkout.lista_de_espera #main .reserva p.precio_final,
+	#checkout.paquete #main .reserva p.precio_final {
+		display: block !important;
+		margin-top: 5px !important;
+		padding-bottom: 5px
+	}
+
+	#checkout.lista_de_espera #main .reserva p.precio_final > span,
+	#checkout.paquete #main .reserva p.precio_final > span {
+		line-height: 12px;
+		display: inline-block
+	}
+
+	#checkout.lista_de_espera #main .reserva p.precio_final > strong,
+	#checkout.paquete #main .reserva p.precio_final > strong {
+		font-size: 20px
+	}
+
+	#checkout #lista_de_espera .reserva p.precio_final .btn_detalle,
+	#checkout #main .reserva p.precio_final .btn_detalle {
+		margin-top: 2px
+	}
+
+	#checkout.lista_de_espera #main .reserva p.precio_final strong span,
+	#checkout.paquete #main .reserva p.precio_final strong span {
+		font-size: 16px
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra .submit,
+	#checkout.paquete #main .contenido .detalle_compra .submit {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		padding: 15px;
+		width: 100%;
+	}
+
+	#checkout.lista_de_espera #main .contenido .detalle_compra input[type=submit],
+	#checkout.paquete #main .contenido .detalle_compra input[type=submit] {
+		padding: 8px 0;
+		font-size: 14px;
+		border-radius: 0
+	}
+
+	#checkout.lista_de_espera .excursiones ul,
+	#checkout.paquete .excursiones ul {
+		width: 100%
+	}
+
+	#checkout.lista_de_espera .excursiones ul + ul li:first-child,
+	#checkout.paquete .excursiones ul + ul li:first-child {
+		margin-top: 15px
+	}
+
+	#checkout .otros_destinos > h3 {
+		border: none;
+		padding: 0;
+		margin-top: 0
+	}
+
+	#checkout.paquete .aside_content + .container {
+		background-color: white
+	}
+
+	#checkout p {
+		margin-bottom: 8px
+	}
+
+	#checkout.paquete .container > .features p {
+		margin-bottom: 0
+	}
+
+	#checkout.paquete #main .aside_content {
+		margin-top: 10px
+	}
+
+	#main .aside_content .contenido {
+		box-shadow: none
+	}
+
+	.item_servicio {
+		width: 25% !important;
+		margin-bottom: 15px
+	}
+
+	#checkout #main .detalle_aside .reserva .info_detalle p {
+		margin-top: 0
+	}
+
+	#checkout #main .detalle_aside .reserva > div {
+		margin-top: 15px
+	}
+
+	#checkout #main .detalle_aside .reserva > div.total,
+	#checkout #main .detalle_aside .reserva > div.precio_reserva {
+		margin-top: 0
+	}
+
+	#checkout.lista_de_espera_proximamente .opciones_paquete h3 {
+		margin-bottom: 15px
+	}
+
+	#checkout.lista_de_espera_proximamente #main .aside_content .opciones_paquete > .row > div {
+		width: 33.33333333333333%;
+		padding: 0;
+		margin-bottom: 0
+	}
+
+	#checkout.lista_de_espera_proximamente #main .aside_content .opciones_paquete > .row > div > span:first-child {
+		font-size: 23px !important;
+		margin: 0
+	}
+
+	#checkout.lista_de_espera_proximamente #main .aside_content .opciones_paquete > .row > div > span {
+		font-size: 15.3px !important;
+		width: 100%
+	}
+
+	#checkout.lista_de_espera_proximamente #main .aside_content .opciones_paquete > .row > div > span:first-child.icon-car {
+		font-size: 18px !important
+	}
+
+
+
+
+	.item_destino {
+		box-shadow: none;
+		padding-top: 1px;
+		padding-bottom: 57px;
+		margin-top: 0;
+		box-shadow: 2px 2px 2px rgba(194, 194, 194, 0.75)
+	}
+	
+	.item_destino > div {
+		padding: 0 5px;
+		height: 50px
+	}
+
+	.item_destino > div p {
+		line-height: 17px
+	}
+
+	.item_destino > div.viaje,
+	.item_destino > div.dias,
+	.item_destino > div.salida,
+	.item_destino > div.base,
+	.item_destino > div.dias.hidden-md,
+	.item_destino > div.disponibilidad {
+		width: 33.33333333333333%;
+		text-align: center;
+		padding: 11px 10px !important
+	}
+
+	.item_destino > div.dias {
+		padding-top: 15px !important
+	}
+
+	.item_destino > div.viaje p {
+		display: block
+	}
+
+	.item_destino > div.dias:not(.hidden-md) p:first-child {
+		display: none
+	}
+
+	.item_destino > div.dias.hidden-md p strong {
+		font-weight: normal
+	}
+
+	.item_destino > div:before {
+		content: normal
+	}
+
+	.item_destino > div.base,
+	.item_destino > div.dias.hidden-md,
+	.item_destino > div.disponibilidad {
+		padding-top: 12px !important;
+		margin-top: 6px
+	}
+
+	.item_destino > div.base:before,
+	.item_destino > div.dias.hidden-md:before,
+	.item_destino > div.disponibilidad:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 2px;
+		background-color: #c9c9c9
+	}
+
+	.item_destino > div.base:before {
+		left: 10px
+	}
+
+	.item_destino > div.dias.hidden-md:before {
+		left: 0
+	}
+
+	.item_destino > div.disponibilidad:before {
+		right: 10px
+	}
+
+	.item_destino > div.disponibilidad.completo {
+		text-transform: uppercase;
+		padding-top: 19px !important
+	}
+	
+	.item_destino > div.bg {
+		height: 60px
+	}
+	
+	.item_destino > div:first-child {
+		padding-left: 10px
+	}
+	
+	.item_destino > div.viaje p {
+		vertical-align: middle
+	}
+	
+	.item_destino > div span.icono {
+		font-size: 18px
+	}
+	
+	.item_destino > div.dias,
+	.item_destino > div.salida {
+		padding: 0 12px
+	}
+	
+	.item_destino > div.dias {
+		padding-right: 0;
+		padding-top: 3px
+	}
+
+	.item_destino > div.dias .btn_tooltip {
+		position: absolute;
+		top: 15px;
+		right: 13%
+	}
+
+	.btn_tooltip .tooltip {
+		width: 185px
+	}
+	
+	.item_destino > div.salida {
+		padding-left: 0;
+		padding-top: 3px
+	}
+	
+	.item_destino > div.base {
+		padding: 9px 0;
+		font-weight: 600;
+	}
+
+	.item_destino > div.base p {
+	    line-height: 13px
+	}
+
+	.item_destino > div.base span {
+		display: block
+	}
+
+	.item_destino > div.base strong {
+		font-weight: normal
+	}
+
+	.item_destino > div.base p,
+	.item_destino > div.viaje p + p,
+	.item_destino > div.salida p,
+	.item_destino > div.dias p {
+		    font-size: 17px;
+    		line-height: 17px;
+	}
+	
+	.item_destino > div.precio_reserva > div > p:first-child {
+		font-size: 12px
+	}
+
+	.item_destino > div.precio_reserva > p,
+	.item_destino > div.precio_final > p	{
+		line-height: 13px
+	}
+
+	.item_destino > div.precio_final > p {
+		margin-top: -2px;
+	    line-height: 16px;
+	}
+	
+	.item_destino > div.precio_final > p + p {
+	    line-height: 12px;
+    }
+
+	.item_destino > div.precio_reserva > p strong span,
+	.item_destino > div.precio_reserva > p strong,
+	.item_destino > div.precio_final p strong,
+	.item_destino > div.precio_final p strong span {
+		font-size: 18px
+	}
+
+	.item_destino > div.precio_reserva > p strong {
+		font-size: 17px
+	}
+	
+	.item_destino > div.precio_final p strong {
+		font-size: 19px !important
+	}
+	
+	.item_destino > div.salida p strong,
+	.item_destino > div.dias p strong {
+		display: block;
+		font-size: 17px
+	}
+	
+	.item_destino > div.precio_final > p span,
+	.item_destino > div.precio_reserva > div > p {
+		line-height: 10px;
+		font-size: 14px
+	}
+	
+	.item_destino > div.precio_reserva,
+	.item_destino > div.precio_final {
+		width: 30%;
+		padding-top: 10px;
+		padding-left: 10px
+	}
+	
+	.item_destino > div.precio_final {
+		width: 50%;
+		padding: 0 10px !important;
+		padding-top: 5px !important;
+		position: absolute;
+		bottom: 0;
+		left: 0
+	}
+
+	.item_destino > div.precio_final.prox {
+		padding-top:25px !important;
+	}
+
+	.item_destino > div.mas_info {
+		display: block;
+		width: 100%;
+		text-align: right;
+		text-transform: uppercase;
+		padding: 10px 10px;
+		padding-bottom: 0;
+		height: auto
+	}
+
+	.item_destino > div.mas_info a {
+		text-decoration: underline;
+		text-decoration-color: #bfbfbf
+	}
+	
+	.item_destino > div.div_reserva {
+		width: 50%;
+		padding: 12px 10px;
+		position: absolute;
+		bottom: 0;
+		right: 0
+	}
+	
+	.item_destino > div.div_reserva .button {
+		padding: 7px 0;
+		min-width: 145px;
+		font-size: 14px
+	}
+	
+	.item_destino > div.div_reserva .button > span {
+		display: none
+	}
+	
+	.item_destino > div.div_reserva .button .icono {
+		width: 6px;
+		display: block;
+		margin: auto
+	}
+	
+	.item_destino > div.div_reserva .button.agotado .icono {
+		display: none
+	}
+	
+	.item_destino > div.div_reserva .button.agotado {
+		background-color: #e8e8e8;
+		width: auto;
+		padding: 0 4px;
+		box-shadow: none;
+		border: none;
+		color: #3a3a3a;
+		margin-top: 7px
+	}
+	
+	.item_destino > div.div_reserva .button.agotado span {
+		display: block;
+		font-size: 14px;
+		text-transform: lowercase
+	}
+	
+	.item_destino > div.div_reserva .button.agotado span:first-letter {
+		text-transform: capitalize
+	}
+
+	#checkout .messenger,
+	#destino .messenger {
+		margin-bottom: 20px
+	}
+
+	#checkout.paquete .info .descripcion,
+	#destino .info .descripcion {
+		font-size: 14px
+	}
+
+	#checkout.paquete .info .descripcion strong,
+	#destino .info .descripcion strong {
+		font-size: 23px
+	}
+
+	#checkout.paquete .info .detalles span,
+	#destino .info .detalles span {
+		font-size: 15px
+	}
+
+	#destino .info .detalles .title + span {
+		display: inline-block
+	}
+
+	#checkout.paquete .contenido .opciones_paquete,
+	.opciones_paquete {
+		font-size: 0;
+		margin-top: 30px
+	}
+
+	#checkout.paquete .contenido .opciones_paquete p,
+	.opciones_paquete p {
+		font-size: 18px;
+		margin-bottom: 20px
+	}
+
+	#checkout.paquete .contenido .opciones_paquete > .row,
+	.opciones_paquete > .row {
+		margin-left: 0;
+		margin-right: 0
+	}
+
+	#checkout.paquete .contenido .opciones_paquete > .row > div,
+	.opciones_paquete > .row > div {
+		width: 33.33333333333333%;
+		margin: 0;
+		margin-bottom: 15px;
+	}
+
+	#checkout.paquete .contenido .opciones_paquete > .row > div span,
+	.opciones_paquete > .row > div span {
+		display: block !important;
+		text-align: center;
+		margin: auto;
+		width: 100%
+	}
+
+	#checkout.paquete .opciones_paquete > .row > div span:first-child,
+	.opciones_paquete > .row > div span:first-child {
+		font-size: 30px;
+		height: 30px;
+		margin-bottom: 7px
+	}
+
+	#checkout.paquete .opciones_paquete > .row > div span + span,
+	.opciones_paquete > .row > div span + span {
+		font-size: 14px;
+		width: 90px;
+		margin: auto;
+		line-height: 15px
+	}
+
+	#checkout.paquete .opciones_paquete > .row > div span.icon-car,
+	.opciones_paquete > .row > div span.icon-car {
+		font-size: 25px
+	}
+
+	#checkout #main .aside_content .panel-group .panel-title span > span {
+		margin-left: 0 !important;
+		/*margin-top: 5px;*/
+		display: block
+	}
+
+	#checkout #main .aside_content .panel-group > .panel-body .panel-group .panel-title span > span {
+		margin: 0
+	}
+
+	#checkout #main .aside_content .panel-group .panel-heading .panel-title {
+		font-size: 16px
+	}
+
+	#checkout .info_compra + hr {
+		display: none
+	}
+
+	#destino .otros_destinos {
+		margin-top: 0
+	}
+
+	#checkout .form_terminos .check_content {
+		margin-bottom: 10px
+	}
+
+
+	#viajes_solas_y_solos .contenido {
+		margin-top: 0;
+		padding: 0
+	}
+
+	#viajes_solas_y_solos .contenido .row {
+		margin: 0
+	}
+
+	#viajes_solas_y_solos .contenido .viajaste_con_nosotros {
+		padding: 0 15px;
+		margin-bottom: 10px
+	}
+
+	#viajes_solas_y_solos #main,
+	#quienes_somos #main {
+		padding-bottom: 0
+	}
+
+	#quienes_somos .contenido {
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 0
+	}
+
+	#quienes_somos .video > div {
+		height: 240px !important;
+		padding: 0 !important
+	}
+
+	#quienes_somos .features,
+	#quienes_somos .textos {
+		margin: 0
+	}
+
+	#quienes_somos .features > div {
+		width: 33.33333333333333%;
+		padding: 0 5px
+	}
+
+	#viajes_solas_y_solos .textos > div,
+	#quienes_somos .textos > div {
+		min-height: auto;
+		padding-bottom: 20px
+	}
+
+	#viajes_solas_y_solos .textos h4,
+	#quienes_somos .textos h4 {
+		min-height: auto;
+		margin-bottom: 7px
+	}
+
+	#quienes_somos .textos p {
+		padding: 0
+	}
+
+	#viajes_solas_y_solos .intro_div .carousel {
+		padding-left: 15px;
+		padding-right: 15px;
+		position: static;
+		transform: none;
+			-webkit-transform: none;
+			-moz-transform: none;
+			-ms-transform: none;
+		margin-top: 20px
+	}
+
+
+	#como_reservar .items_content {
+		margin-top: 0;
+		margin-bottom: 0
+	}
+
+	#como_reservar .items_content .item_reserva > div {
+		padding-left: 60px
+	}
+
+	#como_reservar .items_content .bottom p strong {
+		font-size: 17px
+	}
+
+	#viajes_solas_y_solos .intro_div > div:first-child {
+		padding-right: 15px
+	}
+
+	#como_reservar .items_content h3 {
+		margin-bottom: 20px
+	}
+
+	#checkout.lista_de_espera_proximamente .opciones_paquete h3 {
+		color: black;
+		text-align: center;
+		font-weight: 600;
+	}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.medios_pago .item_pago > a p,
+	.medios_pago .item_pago > a span {
+		font-size: 15px
+	}
+
+}
+
+
+
+@media (max-width: 767px){
+
+	.banner_title {
+		padding: 10px 0
+	}
+
+	.banner_title h1 {
+		font-size: 22px !important
+	}
+
+	.banner_title h2 {
+		font-size: 17px !important
+	}
+
+	.medios_pago .item_pago {
+		padding: 0;
+		margin-top: 20px
+	}
+
+	.medios_pago .item_pago > a {
+		margin-left: 0
+	}
+
+	.medios_pago .item_pago:first-child {
+		margin-top: 0
+	}
+
+	#footer .newsletter {
+		background-color: white
+	}
+
+	#footer .newsletter p {
+		line-height: 19px;
+		color: #20255b
+	}
+
+	#footer .newsletter p strong {
+		display: block
+	}
+
+	#footer .newsletter form {
+		border: 1px solid #d6d6d6
+	}
+
+	#footer .contenido {
+		padding-bottom: 0;
+		padding-top: 15px
+	}
+	
+	#footer .contenido h3 {
+		margin-top: 0;
+		margin-bottom: 2px
+	}
+
+	#footer .btn_whatsapp.simple {
+		display: block;
+		padding-left: 28px !important
+	}
+
+	#footer .btn_whatsapp.simple > span {
+		font-size: 23px
+	}
+
+	#footer .btn_whatsapp p {
+		font-size: 12px !important
+	}
+
+	#footer .contenido .btn_tel {
+		display: inline-block
+	}
+
+	#checkout #main {
+		padding-bottom: 0
+	}
+
+	#checkout #main .contenido {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+
+	#checkout #main .aside_content {
+		padding-left: 0;
+		padding-right: 0
+	}
+
+	#checkout.paquete #main .contenido .detalle_compra .reserva {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+
+	#checkout .info_compra div {
+		width: 100% !important
+	}
+
+	#checkout .info_compra div p {
+		font-size: 15px !important;
+		margin-top: 5px
+	}
+
+	#checkout .info_compra h2 {
+		font-weight: bold;
+	}
+
+	#checkout .info_compra a.btn_editar {
+		font-weight: 600;
+		font-size: 13.5px;
+		top: 5px
+	}
+
+	#checkout.sublanding .submit .button,
+	#checkout #main .aside_content .panel-group .submit .button {
+		font-size: 15px;
+		width: 100%
+	}
+
+	#checkout.sublanding .submit .button {
+		float: none !important;
+		margin: auto;
+		display: block
+	}
+
+	#checkout.sublanding .logo {
+		display: block;
+		width: 100%
+	}
+
+	#checkout.sublanding .logo + a {
+		float: none;
+		display: inline-block;
+		margin: 20px 0
+	}
+
+	#checkout.sublanding #main {
+		padding: 0
+	}
+
+	#checkout.sublanding #main .info_compra .row > div + div p {
+		margin-top: 0
+	}
+
+	#checkout.sublanding #main hr {
+		display: block
+	}
+
+	#checkout.sublanding #main .info_valores div {
+		float: none
+	}
+
+	#checkout.sublanding #main .info_valores p {
+		float: none;
+		margin: 5px 0;
+		display: block
+	}
+
+	#checkout .pagar_luego > p,
+	#checkout .transferencia > p,
+	#checkout .form_pago > div {
+		max-width: auto;
+		max-width: initial
+	}
+
+	#checkout .form_pago label {
+		display: block
+	}
+
+	#checkout.sublanding .transferencia p {
+		float: none;
+		max-width: initial
+	}
+
+	#checkout.sublanding .transferencia .button {
+		float: none;
+		display: block;
+		margin-top: 20px
+	}
+
+	#checkout .form_pago .button img {
+		display: none
+	}
+
+	#checkout .transferencia .button {
+		line-height: 28px
+	}
+
+	#checkout .pagar_luego .button,
+	#checkout .transferencia .button,
+	#checkout .form_pago .button {
+		width: 100%
+	}
+
+	#checkout.sublanding .head h1,
+	#checkout.sublanding .head p {
+		float: none !important;
+		text-align: center !important;
+		display: block
+	}
+
+	#checkout.sublanding #main .logo,
+	#checkout.sublanding #main .logo img {
+		display: inline-block;
+		max-width: 100%
+	}
+
+	#checkout.sublanding #main .aside_content .panel-group .panel-heading a.collapsed span > span {
+		display: block !important
+	}
+
+	#checkout .info_transferencia label > input[type="file"] {
+		font-size: 11px !important
+	}
+
+	#checkout .info_transferencia .submit .button {
+		width: 100%;
+		font-size: 17px
+	}
+
+	#checkout .form_pago .monto_pago_parcial {
+		margin-top: 7px
+	}
+
+	#checkout.lista_de_espera_proximamente .button {
+		float: none;
+		width: 100%;
+		line-height: 20px;
+		white-space: normal
+	}
+
+	#contacto #main > .container {
+		margin-top: 0;
+		margin-bottom: 0
+	}
+
+	.contacto .g-recaptcha {
+		transform: scale(0.72);
+			-webkit-transform: scale(0.72);
+			-moz-transform: scale(0.72);
+			-ms-transform: scale(0.72);
+		transform-origin: 0 0;
+			-webkit-transform-origin: 0 0;
+			-moz-transform-origin: 0 0;
+			-ms-transform-origin: 0 0;
+	}
+
+	.contacto h3 span {
+		display: none
+	}
+
+	.contacto .redes ul li.facebook a {
+		font-size: 24px
+	}
+
+	.contacto .redes ul li.instagram a {
+		width: 25px;
+		height: 26px
+	}
+
+	.contacto .oficinas h4 {
+		padding-left: 0;
+		background: none;
+		padding-bottom: 0
+	}
+
+	.contacto hr {
+		display: none
+	}
+
+	.contacto .btn_whatsapp {
+		padding-left: 30px !important;
+		margin-top: 0
+	}
+
+	.contacto .btn_whatsapp p > span {
+		font-size: 13px
+	}
+
+	.contacto .btn_whatsapp.color > span  {
+		background-size: 23px;
+		width: 23px;
+		height: 23px
+	}
+
+	.contacto .messenger_button span:first-child {
+		font-size: 12px
+	}
+
+	.contacto .messenger_button span + span {
+		margin-left: 2px;
+		font-size: 12px
+	}
+
+	.contacto .redes + div {
+		padding: 0
+	}
+
+	.contacto .seguinos {
+		margin-top: 15px
+	}
+
+	.contacto h3 {
+		font-size: 15px
+	}
+
+}
+
+
+
+@media (max-width: 665px){
+
+	#checkout .form_pago label + input {
+		margin: 0
+	}
+
+	#checkout #main .aside_content .contenido .row > label .bootstrap-select.btn-group,
+	#checkout #main .aside_content .contenido .row > label,
+	#checkout #main .contenido > .row > label,
+	#checkout #main .contenido > .row > div {
+		width: 100% !important
+	}
+	
+	#checkout #main .contenido .pago > div p,
+	#checkout #main .contenido .pago > div > div	{
+		width: 100px;
+		text-align: left
+	}
+	
+	#checkout #main .contenido .pago > div > div {
+		margin-top: 8px
+	}
+
+	#checkout .pagar_luego .button,
+	#checkout .transferencia .button,
+	#checkout .form_pago .button {
+		float: none
+	}
+
+	#checkout .form_pago .button {
+		margin-top: 10px !important
+	}
+
+	#checkout .pagar_luego > p,
+	#checkout .transferencia > p,
+	#checkout .form_pago > div {
+		width: 100%;
+		float: none
+	}
+
+	#checkout #main .aside_content .panel-group .submit {
+		font-size: 15px;
+		text-align: center
+	}
+
+}
+
+
+@media (min-width: 501px){
+	#home .carousel .carousel_mobile {
+		display: none
+	}
+}
+
+
+
+@media (max-width: 500px){
+	#home .carousel .carousel_desktop {
+		display: none
+	}
+}
+
+
+
+@media (max-width: 550px){
+
+	#footer .newsletter form *[type=submit] {
+		padding: 5px 20px
+	}
+
+}
+
+
+
+@media (max-width: 480px){
+
+	#footer .contenido .row > div {
+		width: 50%
+	}
+
+	#footer .contenido p.tel {
+		font-size: 15px
+	}
+
+	#footer .contenido p.ubicacion {
+		font-size: 13px
+	}
+
+	#footer .contenido p > span {
+		display: block
+	}
+
+	#footer .contenido p {
+		font-size: 12px;
+		margin-top: 5px
+	}
+
+	#checkout.sublanding .form_pago label {
+		width: 100%;
+		margin: 0;
+		margin-top: 10px
+	}
+
+}
+
+
+
+@media (max-width: 440px){
+
+	.contacto .link {
+		display: block
+	}
+
+	.contacto .btn_tel {
+		margin: 0
+	}
+
+}
+
+
+
+.contacto .redes ul li.instagram a {
+	width: 25px;
+	height: 26px
+}
+
+@media( max-width: 767px ){
+
+	#checkout.lista_de_espera_proximamente .title,
+	#checkout.paquete .title,
+	#destino .title {
+		font-size: 18px;
+		line-height: 18px;
+		margin-bottom: 0;
+		margin-top: 4px;
+	}
+
+	.banner .tag {
+		padding: 0 5px;
+		margin-bottom: 2px;
+	}
+
+	.banner .tag .btn_tooltip {
+		width: 13px;
+		margin-left: 0;
+		vertical-align: 2px
+	}
+
+	.banner .title + span,
+	.banner .title + .description {
+		line-height: 16px;
+		vertical-align: middle;
+	}
+
+	.banner .info {
+		bottom: 4px
+	}
+
+	#destino .banner .info .descripcion {
+		vertical-align: middle;
+		line-height: 12px
+	}
+
+	#checkout.paquete .title {
+		margin-top: 6px
+	}
+
+	#destino .info .descripcion strong {
+		font-size: 17px
+	}
+
+	.banner:before {
+		background-size: 100% 100px;
+	}
+
+	.item_viaje .detalle p {
+		font-size: 18px;
+		line-height: 17px;
+	}
+
+	.item_viaje .detalle h3, .item_viaje .detalle h4 {
+		font-size: 13px;
+		line-height: 13px;
+	}
+
+
+}

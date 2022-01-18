@@ -1,0 +1,236 @@
+.module__slideViajeros{
+	 margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.module__slideViajeros .cont-slider {
+	background-color: #6ceed5;
+	padding-bottom: 20px;
+	position: relative
+}
+
+.module__slideViajeros .cont-slider:before {
+	content: '';
+	background: url('../images/bg/slider-viajeros-trama-01.png') left bottom no-repeat;
+	background-size: 100% auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 265px;
+	height: 135px
+}
+
+.module__slideViajeros .cont-slider:after {
+	content: '';
+	background: url('../images/bg/slider-viajeros-trama-02.png') right top no-repeat;
+	background-size: 100% auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+    width: 200px;
+    height: 140px;
+	opacity: 0.5
+}
+
+
+/* // Dots */
+.module__slideViajeros .owl-carousel .owl-dots {
+	display: block;
+	text-align: center;
+	padding-top: 20px
+}
+
+.module__slideViajeros .owl-carousel .owl-dots > div {
+	width: 10px;
+	height: 10px;
+	margin: 0 2px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 2px solid #00205f;
+	border-radius: 50%;
+	transition: background 0.2s
+}
+
+.module__slideViajeros .owl-carousel .owl-dots > div.active {
+	background-color: #00205f;
+	transition: background 0.2s
+}
+/* // Dots */
+
+
+.module__slideViajeros .card-testimonio {
+	padding: 20px 5px
+}
+
+.module__slideViajeros .card-testimonio .cont-card {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.module__slideViajeros .card-testimonio .avatar {
+    margin: auto;
+	display: block;
+	max-width: 400px;
+	position: relative
+}
+
+.module__slideViajeros .card-testimonio .avatar div.marks {
+	width: 80px;
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 25px;
+}
+
+.module__slideViajeros .card-testimonio .avatar .perfil img {
+	max-width: 100%
+}
+
+
+.module__slideViajeros .card-testimonio .info .title{
+	margin-bottom: 25px
+}
+
+.module__slideViajeros .card-testimonio .info .title h3 {
+	font-size: 30px;
+	font-family: "Rift Soft";
+	font-weight: normal;
+	margin: 0
+}
+
+.module__slideViajeros .card-testimonio .info .title h3 > strong {
+	font-family: "Rift Soft";
+	font-weight: bold;
+}
+
+.module__slideViajeros .card-testimonio .info .title p{
+	font-size: 16px;
+}
+
+.module__slideViajeros .card-testimonio .info .text{
+    padding: 10px 15px;
+	background-color: transparent;
+	border: 3px solid #00205f;
+	margin-top: 20px;
+	border-radius: 20px;
+	position: relative
+}
+
+.module__slideViajeros .card-testimonio .info .text p {
+	font-size: 14px;
+}
+
+/*slider special*/
+.module__slideViajeros .card-testimonio .info .text:before {
+	content: '';
+	position: absolute;
+	display: inline-block;
+    top: -58px;
+	right: 14%;
+	background: url("../images/icons/pic_top.png") center center no-repeat;
+    width: 40px;
+    height: 60px;
+	background-size: 100% auto;
+}
+
+.module__slideViajeros .trama-slide-footer{
+	margin-left: -15px;
+	position: absolute;
+	bottom: 0;
+}
+
+.module__slideViajeros .trama-slide-footer figure{
+	width: 270px;
+}
+
+.module__slideViajeros .trama-slide-footer figure img{
+	width: 100%;
+}
+
+.module__slideViajeros .trama-slide-header{
+	margin-right: 0;
+	position: absolute;
+	top: -20px;
+	right: 0;
+}
+
+.module__slideViajeros .trama-slide-header figure{
+	width: 270px;
+	overflow: hidden;
+}
+
+.module__slideViajeros .trama-slide-header figure img{
+	width: 100%;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+@media ( min-width: 992px ){
+
+	.module__slideViajeros {
+		margin-top: 120px;
+	}
+
+	.module__slideViajeros .card-testimonio {
+		padding: 25px 80px 0
+	}
+
+	.module__slideViajeros .card-testimonio .info .title {
+		margin-left: 15px
+	}
+
+	.module__slideViajeros .card-testimonio .info .title h3 {
+		font-size: 40px
+	}
+
+	.module__slideViajeros .card-testimonio .info .text {
+		margin-top: 0;
+		padding: 25px 40px;
+		border-width: 2px
+	}
+
+	.module__slideViajeros .card-testimonio .info .text:before {
+		background-image: url('../images/icons/pic.png');
+		right: initial;
+		top: 0;
+		left: -28px;
+		width: 26px;
+	}
+
+	.module__slideViajeros .card-testimonio .info .text p {
+		font-size: 16px
+	}
+
+	.module__slideViajeros .card-testimonio .avatar {
+		width: 20%;
+		margin-top: 15px;
+		position: absolute;
+		top: 50%;
+		left: 0;
+			-webkit-transform: translate(0, -50%);
+			-moz-transform: translate(0, -50%);
+			-ms-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+		margin-right: 15px;
+		padding-right: 10px;
+		padding-top: 30px;
+	}
+
+	.module__slideViajeros .card-testimonio .info {
+		padding-left: 20%
+	}
+
+	.module__slideViajeros .card-testimonio .cont-card {
+		padding: 30px 0;
+		text-align: left
+	}
+
+
+}

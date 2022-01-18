@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+	padding: 0;
+}
+
+.no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.no-margin{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.btn.active,
+.btn:active{
+  box-shadow: none;
+  border:none;
+  outline: none;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus, .btn:focus{
+  outline: none;
+}
+
+
+ul.listado{
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0;
+  padding-left: 0;
+}
+
+
+figure img{
+  width: 100%;
+}

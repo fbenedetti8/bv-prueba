@@ -1,0 +1,191 @@
+.highlight .buenas-vibras .cont-info{
+  position: relative;
+}
+
+.highlight .buenas-vibras .cont-info .cont-select{
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+}
+
+.group-selection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.group-selection .box-selection{
+  margin: 0 1%;
+  width: 35%;
+}
+
+/*.box-selection .button-select{
+  float: left;
+  background-color: #fff;
+  border: none;
+  padding:16px 10px;
+  width: 100%;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+.box-selection.open .button-select{
+  background-color: #ff5c5c;
+  outline: none;
+}
+
+.box-selection .button-select:focus{
+  border-color: #00adee;
+}
+
+.box-selection .button-select .on{
+  display: block;
+}
+
+.box-selection .button-select .off{
+  display: none;
+}
+
+.box-selection.open .button-select .on{
+  display: none;
+}
+
+.box-selection.open .button-select .off{
+  display: block;
+}
+*/
+
+.box-selection .button-select figure{
+  width: 22px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+}
+
+.box-selection .button-select figure img{
+  width: 100%;
+}
+
+.box-selection .button-select p{
+  font-family: "Helvetica Neue";
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 0;
+  float: left;
+}
+
+.box-selection.open .button-select p{
+  color: #fff;
+}
+
+
+/**/
+.box-selection {
+	position: relative
+}
+
+.combo_box {
+	position: relative
+}
+
+.combo_box > button {
+	position: relative;
+	font-size: 14px
+}
+
+.box-selection > button:active {
+	background-color: #f6f6f6
+}
+
+.box-selection .combo_list {
+	background-color: #ff5c5c;
+	display: none;
+	position: absolute;
+	top: 98%;
+	left: 0;
+	width: 100%;
+	border: 1px solid #ff5c5c;
+	z-index: 2;
+  padding-bottom: 10px;
+}
+
+.box-selection .combo_list p,
+.box-selection .combo_list li{
+  font-family: "Helvetica Neue LT Std";
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.box-selection.open .combo_list {
+	display: block
+}
+
+.box-selection.open .combo_list ul{
+	width: 90%;
+  margin: 0 auto;
+}
+
+.box-selection.open .combo_list ul li{
+  list-style-type:none;
+  display:block;
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding-left: 34px;
+}
+
+.box-selection.open .combo_list ul li:nth-child(1){
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.box-selection.open .combo_list ul li.sb{
+  border-bottom: none;
+}
+
+
+.box-selection.open .combo_list label {
+	display: block;
+	padding: 6px 10px;
+	font-family: 'Roboto'
+}
+
+.icon-arrow.on{
+  background: url('../images/icons/icon-arrow-down.png') center center no-repeat;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-size: 60% auto;
+  float: right;
+}
+
+.icon-arrow.off{
+  background: url('../images/icons/icon-arrow-down-w.png') center center no-repeat;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-size: 60% auto;
+  float: right;
+}
+
+.box-selection .button-select .icon-arrow{
+	position: absolute;
+	top: 50%;
+	right: 15px;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  transition: transform 0.2s linear
+}
+
+.box-selection.open .button-select .icon-arrow{
+		-webkit-transform: translate(0, -50%) rotate(180deg);
+		-moz-transform: translate(0, -50%) rotate(180deg)
+		-ms-transform: translate(0, -50%) rotate(180deg)
+	transform: translate(0, -50%) rotate(180deg);
+	transition: transform 0.2s linear
+}

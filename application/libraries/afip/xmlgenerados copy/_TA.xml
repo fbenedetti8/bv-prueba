@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loginTicketResponse version="1">
+    <header>
+        <source>CN=wsaa, O=AFIP, C=AR, SERIALNUMBER=CUIT 33693450239</source>
+        <destination>C=ar, O=buenas vibras s.r.l., SERIALNUMBER=CUIT 30711604932, CN=buenas-vibras.com.ar</destination>
+        <uniqueId>346069848</uniqueId>
+        <generationTime>2015-07-20T16:55:13.894-03:00</generationTime>
+        <expirationTime>2015-07-21T04:55:13.894-03:00</expirationTime>
+    </header>
+    <credentials>
+        <token>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIyOTIwMDYzNzMiIHNyYz0iQ049d3NhYSwgTz1BRklQLCBDPUFSLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMzY5MzQ1MDIzOSIgZ2VuX3RpbWU9IjE0Mzc0MjIwNTMiIGV4cF90aW1lPSIxNDM3NDY1MzEzIiBkc3Q9IkNOPXdzZmUsIE89QUZJUCwgQz1BUiIvPgogICAgPG9wZXJhdGlvbiB2YWx1ZT0iZ3JhbnRlZCIgdHlwZT0ibG9naW4iPgogICAgICAgIDxsb2dpbiB1aWQ9IkM9YXIsIE89YnVlbmFzIHZpYnJhcyBzLnIubC4sIFNFUklBTE5VTUJFUj1DVUlUIDMwNzExNjA0OTMyLCBDTj1idWVuYXMtdmlicmFzLmNvbS5hciIgc2VydmljZT0id3NmZSIgcmVnbWV0aG9kPSIyMiIgZW50aXR5PSIzMzY5MzQ1MDIzOSIgYXV0aG1ldGhvZD0iY21zIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiByZWx0eXBlPSI0IiBrZXk9IjMwNzExNjA0OTMyIi8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cgo=</token>
+        <sign>AJk7H9woFnqd5K4NqW5zzt1YoqMHgmivuhPvBMgpYomBxH4JY5rX18wY6akPSAxgLhS9sx/78q3srtf4QljjBYW3RQ6ryrv0q6SnMoWNN52FUqE74OapoV5Ysdmv46LKF3jT4kxCQv7ylLYP12M6WliO45qQ4hWcvitA1cXd11s=</sign>
+    </credentials>
+</loginTicketResponse>
+

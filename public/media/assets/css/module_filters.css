@@ -1,0 +1,486 @@
+.module__filters{
+  background-color: #d9f8ff;
+  padding-top: 40px;
+}
+
+
+.module__filters .filters{
+  background-color: #00adee;
+  float: left;
+  width: 24%;
+  margin-right: 25px;
+  padding: 40px 20px;
+}
+
+.module__filters .results{
+  float: left;
+  width: 70%;
+}
+
+/*Module Filters*/
+.module__filters .filters .apply_filters .title > p,
+.module__filters .filters .group-filters .title{
+  font-family: "Rift Soft";
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.module__filters .filters .apply_filters .title .button-filter{
+  display: none;
+}
+
+.module__filters .filters .group-filters .title{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.module__filters .apply_filters{
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding-bottom: 10px;
+  margin-bottom:20px;
+}
+
+.group-apply{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.pill-filter{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+.pill-filter .item{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ff5c5c;
+  color: #fff;
+  padding: 3px 5px;
+}
+
+.pill-filter .item:hover{
+  background-color: #f54e4e;
+  transition: background-color 0.5s;
+}
+
+.pill-filter .item{
+  text-decoration: none;
+}
+
+.pill-filter .item .icon{
+    align-self: center;
+}
+
+.pill-filter .item .icon i{
+  font-size: 12px;
+  font-weight: 600;
+
+}
+
+.pill-filter .item .icon i:hover{
+    opacity: 0.8;
+}
+
+.pill-filter .item h2{
+  font-size: 14px;
+  font-family: Helvetica Neue LT STD;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-left: 0.5px solid #fff;
+  padding-left: 6px;
+  margin-left: 5px;
+  margin-top: 1px;
+  margin-right: 8px;
+}
+
+/**/
+.module__filters .filters .group-filters{
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding-bottom: 20px;
+  margin-bottom:20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.module__filters .filters .group-filters .listado{
+  width: 100%;
+}
+
+.module__filters .filters .group-filters .listado li{
+  margin: 1px 0;
+}
+
+.module__filters .filters .group-filters .listado a{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: normal;
+  color: #fff;
+}
+
+.module__filters .filters .group-filters .listado a strong{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+}
+
+.module__filters .filters .group-filters .listado a:hover{
+  text-decoration: none;
+  color: #262e69;
+  transition:color 0.5s;
+}
+
+
+
+/*Results*/
+.option-results{
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.option-results .option-head{
+  border-bottom: 2px solid #00adee;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.option-results .option-body{
+  float: left;
+}
+
+.option-results .option-head.type-multiple{
+  cursor: pointer;
+}
+
+.option-results .option-head .title .text{
+  font-family: "Rift Soft";
+  font-weight: 700;
+  font-size: 30px;
+  color: #00adee;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.option-results .option-head .arrow{
+  align-self: center;
+}
+.option-results .option-head.collapsed .arrow::before{
+  content: '';
+  background: url(../images/icons/icon-arrow-up-blue.png) center center no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: 80%;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.option-results .option-head .arrow::before{
+  content: '';
+  background: url(../images/icons/icon-arrow-down-blue.png) center center no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* Fin Results*/
+
+/*Popup Filters*/
+.module__popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 39, 39, 0.7);
+  z-index: 50;
+  /*display: none;*/
+}
+
+.module__popup.-proximosviajes .cont-info{
+  background-color: #00adef;
+  color: #fff;
+  text-align: center;
+  height: 115%;
+}
+
+.module__popup.-proximosviajes .cont-info .head{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  text-align: right;
+}
+
+.module__popup.-proximosviajes .cont-info .head a{
+  color: #fff;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters{
+  margin-bottom: 30px;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-title .title{
+  font-family:"Helvetica Neue LT STD";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-title hr{
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters{
+  width: 100%;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters .item{
+  width: 100%;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+  margin: 10px 0;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters .option{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*First*/
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-carousel{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-carousel .owl-carousel .owl-nav{
+  position: relative;
+  bottom: 27px;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-carousel .owl-carousel .owl-nav .owl-prev,
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-carousel .owl-carousel .owl-nav .owl-next{
+  font-size: 18px;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-carousel .owl-carousel .owl-nav .owl-prev{
+  position: absolute;
+  left: -35px;
+  width: 40px;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-carousel .owl-carousel .owl-nav .owl-next{
+  position: absolute;
+  right: -35px;
+  width: 40px;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters label{
+  display: block;
+  margin-bottom: 0;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters label input{
+  position: absolute;
+  right: 0;
+  display: none;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters.filter-date label{
+  font-family: "Helvetica neue LT STD";
+  font-weight:  normal;
+}
+.module__popup.-proximosviajes .cont-info .filters .group-filters.filter-date .cont-carousel .owl-carousel input[type=radio]{
+  display: none;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters label.check{
+    line-height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters label.check input[type=radio] + span:after{
+  content: "";
+  background-image: url(../images/icons/icon-check-vacio.png);
+  repeat:no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters label.check input[type=radio]:checked + span:after {
+    content: "";
+		background-image: url(../images/icons/icon-check-lleno.png);
+    repeat:no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+	}
+
+
+/* Fin First Filter*/
+.module__popup.-proximosviajes .cont-info .bottom{
+  margin-bottom: 70px;
+}
+
+.module__popup.-proximosviajes .cont-info .bottom .btn{
+  font-size: 18px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: none;
+  padding: 6px 35px;
+  margin: 0 2%;
+}
+
+.module__popup.-proximosviajes .cont-info .bottom .btn:hover input {
+  color:#fff;
+}
+
+.module__popup.-proximosviajes .cont-info .bottom .btn.cancel-filtros{
+  border: 1px solid #fff;
+}
+
+.module__popup.-proximosviajes .cont-info .bottom a.btn.cancel-filtros{
+  color: #fff;
+}
+
+.module__popup.-proximosviajes .cont-info .bottom a.btn.cancel-filtros:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.module__popup.-proximosviajes .cont-info .bottom *[type=submit]{
+  background-color: transparent;
+  border: none;
+}
+
+
+
+/**/
+
+
+@media (max-width:1200px){
+  .module__filters .filters{
+    width: 20%;
+  }
+  .module__filters .results{
+    width: 75%;
+  }
+}
+
+@media (max-width:992px){
+  .module__filters .filters{
+    margin-right: 15px;
+        padding: 40px 10px;
+  }
+
+  .pill-filter .item h2{
+    font-size: 12px;
+  }
+  .module__filters .filters .group-filters .listado li{
+    margin: 0;
+  }
+  .module__filters .filters .group-filters .listado a{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:768px){
+  .module__filters{
+    padding-top: 0;
+  }
+  .module__filters .filters {
+    margin-right: 15px;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .module__filters .results {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .module__filters .filters .filter-desk{
+    display: none;
+  }
+
+  .module__filters .apply_filters {
+    border-bottom:0;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+  }
+
+  .module__filters .filters .apply_filters .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .module__filters .filters .apply_filters .title > p,
+  .module__filters .filters .group-filters .title{
+    display: inline-block;
+  }
+
+  /*Button Filter*/
+  .module__filters .filters .apply_filters .title .button-filter{
+    display: inline-block;
+  }
+
+  .button-filter figure{
+    width: 20px;
+    display: inline-block;
+  }
+  .button-filter figure img:hover{
+    opacity:0.8;
+    transition: opacity 0.5s;
+  }
+  /*Button Filters*/
+
+  .pill-filter .item h2 {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+}
+
+
+@media (max-width:560px){
+  .module__popup.-proximosviajes .cont-info{
+    height: 115%;
+  }
+  .module__popup.-proximosviajes .cont-info .filters .group-filters .cont-filters .option{
+    width: 90%;
+  }
+}

@@ -1,0 +1,287 @@
+
+
+.module__Menuhelp{
+	position: fixed;
+	bottom: 80px;
+	right: 110px;
+	width: 70px;
+	height: 70px;
+	z-index: 2
+}
+
+.module__Menuhelp .button,
+.module__Menuhelp .nav{
+	position: absolute;
+}
+
+.module__Menuhelp .container {
+	margin-left: -14px;
+}
+
+.module__Menuhelp .button {
+	z-index: 1;
+	width: 70px;
+	height: 70px;
+	border: none;
+	background: #ff5c5d;
+	border-radius: 100%;
+	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.07);
+	transition: box-shadow 0.2s
+}
+
+.module__Menuhelp.open .button {
+	box-shadow: none;
+	transition: box-shadow 0.2s
+}
+
+.module__Menuhelp .button:before {
+	background: url("../images/icons/icon-hand.png") center center no-repeat;
+	position: absolute;
+	top: 13px;
+	left: 19%;
+	content: '';
+	background-size: 100%;
+	width: 40px;
+	height: 40px
+}
+
+.module__Menuhelp .nav {
+	display: none;
+	bottom: 0;
+	right: -2px;
+	background-color: #ff5c5d;
+	width: 410px;
+	padding: 30px 23px;
+	padding-bottom: 80px;
+}
+
+
+
+/*Custom*/
+.nav-close{
+	display: block;
+	margin-bottom: 0px;
+	text-align: right;
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-close:hover{
+	color: #eee;
+}
+
+.btn-arrow{
+	background-color: transparent;
+	border: 0;
+	outline: none;
+}
+
+.btn-arrow::after{
+	content: '';
+	background: url("../images/icons/icon-arrow-down-w.png") center center no-repeat;
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-size: 80%;
+	margin-top: -5px;
+}
+
+.module__Menuhelp .select-options{
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	padding-bottom: 2px;
+}
+
+.module__Menuhelp .select-options p{
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+}
+
+.module__Menuhelp .select-options p strong{
+	font-weight: 500;
+}
+
+/*Hand Options*/
+.module__Menuhelp .nav .hand-options ul li{
+	margin: 2px 0;
+	padding: 8px 14px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.module__Menuhelp .nav .hand-options ul li i{
+	color: #fff;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.module__Menuhelp .nav .hand-options ul li a{
+	font-weight: 500;
+	font-size: 16px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.module__Menuhelp .nav .hand-options ul li a:hover{
+	color: #00205f;
+	transition: color 0.2s;
+}
+
+.module__Menuhelp .nav .hand-options ul li a:hover i{
+	color: #00205f;
+	transition: color 0.2s;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails{
+	width: 100%;
+	margin-top: -4px;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .m_title{
+	margin: 2px 0;
+	padding: 10px 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.module__Menuhelp .nav .hand-options .option-emails .m_title i{
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .m_title p{
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 13px;
+	color: #fff;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .m_title:hover p,
+.module__Menuhelp .nav .hand-options .option-emails .m_title:hover i{
+	color: #00205f;
+	transition: color 0.2s;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails.open .m_title{
+	background-color: #fff;
+	margin-bottom: 0;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails.open .m_title p,
+.module__Menuhelp .nav .hand-options .option-emails.open .m_title i{
+	color: #00205f;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .listado.mail{
+	width: 100%;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .listado.mail{
+	background-color: #fff;
+	margin-top: -1px
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .listado.mail li{
+	border-bottom: 1px solid #ff7d7f;
+	margin-bottom: 0
+}
+
+
+.module__Menuhelp .nav .hand-options .option-emails .listado.mail li i{
+	color: #ff7d7f
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .listado.mail .info{
+	display: inline-block;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .listado.mail .info p{
+	margin-bottom: 0;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.module__Menuhelp .nav .hand-options .option-emails .listado.mail li a{
+	color: #00205f;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.listado.faqs {
+	width: 100%;
+}
+
+
+
+@media ( max-width: 991px ){
+
+	.module__Menuhelp {
+	    right: 15px;
+	    bottom: 15px
+	}
+
+}
+
+.field_required .msg { color:red !important; display: none !important;  }
+.field_required.error .msg { color:red !important; display: block !important;  }
+.alert .msg {  font-size: 20px; font-weight: bold; }
+
+#checkout .msg {
+	display: none;
+}
+
+#checkout .required.error .msg.error {
+	display: block;
+}
+
+#checkout .check_content + .msg.error {
+	margin-bottom: 10px
+}
+
+#checkout .form_terminos .msg.error {
+	margin-top: 10px
+}
+
+/*color de link en nombre de paquete en pagina de destino */
+.paquete__title a { color:inherit; }
+#intermedia .paquete__foto { cursor: pointer; }
+
+.contacto .envio_contacto form textarea, .contacto .envio_contacto form input[type=text] {
+    color: #000;
+}
+
+
+
+/* vendedor logueado */
+#header:not(.sticky) .submenu  .vendedor-logged { display:none; }
+.vendedor-logged .etiqueta { font-size:16px; padding:10px; background-color:#f0ad4e; color:#fff; text-align:center; }
+@media (max-width:768px){
+	.vendedor-logged .etiqueta { font-size:12px; }
+}
+.vendedor-logged .etiqueta span { font-weight: normal; }
+.vendedor-logged .etiqueta i { 
+	font-size: 18px;
+    margin: 0px 5px;
+    vertical-align: middle;
+}
+
+.nav_header.sticky .nav_wrapper { position: relative; }
+
+
+.completar_dni_pasaporte {     
+	padding-left: 15px;
+    margin-bottom: 20px;
+    color: #333 !important; 
+}

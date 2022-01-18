@@ -1,0 +1,1 @@
+<td style="vertical-align:middle;"><a class="toggle_2 <?=$status;?>" href="<?=$url;?>" rel="<?=$action;?>"></a></td>

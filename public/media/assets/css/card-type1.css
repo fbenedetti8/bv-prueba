@@ -1,0 +1,184 @@
+.card-product.type1{
+	max-width: 260px;
+	background-color: #fff;
+	box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    margin: auto
+}
+
+.card-product.type1 .card-header{
+	position: relative;
+}
+
+.card-product.type1 .card-header .group-buttons{
+	position: absolute;
+	top: 6%;
+	right: 5%;
+}
+
+.card-product.type1 .card-header .group-buttons button{
+	background-color: #22275b;
+	width:30px;
+	height: 30px;
+	border-radius: 100px;
+	border:none;
+}
+
+.card-product.type1 .card-header .group-buttons button:hover{
+	background-color: #313456;
+}
+
+.card-product .card-header .group-buttons button.btn-photo{
+	background: url('../images/icons/icon-photo.png') center center no-repeat;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	background-size: 100% auto;
+}
+
+.card-product .card-header .group-buttons button.btn-config{
+	background: url('../images/icons/icon-config.png') center center no-repeat;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	background-size: 100% auto;
+}
+
+.card-product.type1 .card-body{
+	padding: 0 15px;
+	border-bottom: 1px solid #eaf5f4;
+	padding-bottom: 5px;
+}
+
+.card-product.type1 .card-body .card-title{
+	font-family: "Rift Soft";
+	font-weight: bold;
+	font-size: 20px;
+	color: #262e69;
+}
+
+.card-product.type1 .card-body .card-text{
+	font-size: 14px;
+	color: #262e69;
+	line-height: 1.2;
+	height: 80px;
+	overflow: hidden;
+}
+
+.card-product.type1 .card-footer{
+	padding: 15px;
+	display: block;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card-product.type1 .card-footer p{
+	margin-bottom: 0;
+}
+
+.card-product.type1 .card-footer .group-data-info{
+	font-size: 0;
+	color: #262e69;
+	line-height: 1.2;
+	display: block;
+	margin: 0 -1%;
+	width: 100%
+}
+
+.card-product.type1 .card-footer .group-data-info .option-1,
+.card-product.type1 .card-footer .group-data-info .option-2{
+	display: inline-block;
+	width: 48%;
+	height: 85px;
+	margin: 0 1%
+}
+
+
+
+.card-product.type1 .card-footer .group-data-info .option-1 .title,
+.card-product.type1 .card-footer .group-data-info .option-2 .title{
+	font-size: 12px;
+	color: #262e69;
+}
+
+.card-product.type1 .card-footer .group-data-info .option-2 .title.now{
+	color: #ff5c5c;
+	font-weight: 900;
+}
+
+
+
+.card-product.type1 .card-footer .group-data-info .option-1 .group-price{
+	color: #262e69;
+	margin-bottom: 0;
+}
+
+.card-product.type1 .card-footer .group-data-info .option-1 .group-price .price,
+.card-product.type1 .card-footer .group-data-info .option-2 .group-price .price,
+.card-product.type1 .card-footer .group-data-info .option-1 .group-price .text-default{
+	font-family: "Rift Soft";
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.card-product.type1 .card-footer .group-data-info .option-1 .group-price .price-imp,
+.card-product.type1 .card-footer .group-data-info .option-2 .group-price .price-imp{
+	font-family: "Rift Soft";
+	font-weight: bold;
+	font-size: 15px;
+	color: #00aeef;
+}
+
+.card-product.type1 .card-footer .group-data-info .option-1 .group-price .text-default{
+	color: #00aeef;
+	margin-bottom: 0;
+}
+
+
+.card-product.type1 .card-footer .group-info-button{
+	display: inline-block;
+	width: 100%;
+}
+
+.card-product.type1 .card-footer .group-info-button .btn {
+	width: 100%;
+	max-width: 170px;
+	display: table;
+	margin: 20px auto 10px
+}
+
+
+
+
+@media ( min-width: 992px ){
+
+	.card-product.type1 {
+		max-width: 420px
+	}
+
+	.card-product.type1 .card-footer .group-data-info .option-2 .group-price .price,
+	.card-product.type1 .card-footer .group-data-info .option-1 .group-price .price {
+		font-size: 30px
+	}
+
+	.card-product.type1 .card-footer .group-data-info .option-1 .group-price .price-imp,
+	.card-product.type1 .card-footer .group-data-info .option-2 .group-price .price-imp {
+		font-size: 20px
+	}
+
+	.card-product.type1 .card-footer .group-data-info {
+		width: 70%;
+		display: inline-block;
+		vertical-align: middle
+	}
+
+	.card-product.type1 .card-footer .group-info-button {
+		width: 30%;
+		display: inline-block;
+		vertical-align: middle
+	}
+
+	.card-product.type1 .card-body .card-text {
+		height: 55px
+	}
+
+}

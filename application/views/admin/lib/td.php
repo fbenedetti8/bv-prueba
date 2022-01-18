@@ -1,0 +1,1 @@
+<td style="vertical-align:middle;"><?php echo utf8_decode($value);?></td>

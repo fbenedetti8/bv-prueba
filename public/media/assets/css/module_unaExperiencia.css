@@ -1,0 +1,177 @@
+.module__unaExperiencia{
+	background-color: #d9f8ff;
+	margin-top: 50px;
+	margin-bottom: 20px;
+    position: relative
+}
+
+.module__unaExperiencia:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: block;
+    width: 270px;
+    height: 65px;
+	background: url('../images/bg/trama-una-experiencia-03.png') right bottom no-repeat;
+	background-size: 100% auto
+}
+
+.module__unaExperiencia .cont-info {
+	position: relative
+}
+
+.module__unaExperiencia .cont-info .container {
+	padding: 0;
+	position: relative
+}
+
+.module__unaExperiencia .title {
+	padding-bottom: 6px;
+	width: 190px;
+	position: absolute;
+	top: -20px;
+	left: 15px;
+	z-index: 1
+}
+
+.module__unaExperiencia .title h2 {
+	margin: 0;
+	font-family: "Rift Soft";
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #262e69;
+	line-height: 105%
+}
+
+.module__unaExperiencia .title h2 span{
+	display: table;
+}
+
+.module__unaExperiencia .title:after{
+	content: '';
+	border-bottom: 3px solid #262e69;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 87px
+}
+
+.module__unaExperiencia .picture {
+	padding-left: 0;
+	position: relative
+}
+
+.module__unaExperiencia:after,
+.module__unaExperiencia .picture:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    width: 180px;
+    height: 140px;
+	background: url('../images/bg/trama-una-experiencia-01.png') left bottom no-repeat;
+	background-size: 100% auto
+}
+
+.module__unaExperiencia:after {
+	content: normal
+}
+
+.module__unaExperiencia .picture div{
+	width: 100%;
+}
+
+.module__unaExperiencia .picture div img{
+	width: 100%;
+}
+
+
+.module__unaExperiencia .info{
+	padding: 30px 25px 60px
+}
+
+.module__unaExperiencia .info .text{
+	margin-bottom: 5%;
+}
+
+.module__unaExperiencia .info .text p{
+	font-size: 16px;
+}
+
+
+
+.module__unaExperiencia .btn-border-white {
+	padding: 5px 5px;
+    margin: auto;
+    display: table
+}
+
+.module__unaExperiencia .btn-border-white > a {
+    padding: 9px 20px
+}
+
+
+
+
+
+@media ( min-width: 992px ){
+
+	.module__unaExperiencia {
+		margin-top: 120px
+	}
+
+	.module__unaExperiencia:after {
+		content: '';
+	    width: 21%;
+    	height: 100%
+	}
+
+	.module__unaExperiencia:before {
+		height: 100%;
+		width: 104px;
+		background-image: url('../images/bg/trama-una-experiencia-02.png')
+	}
+
+	.module__unaExperiencia .picture:before {
+		content: normal
+	}
+
+	.module__unaExperiencia .btn-border-white {
+		display: inline-block
+	}
+
+	.module__unaExperiencia .info_wrapper {
+		font-size: 0
+	}
+
+	.module__unaExperiencia .picture,
+	.module__unaExperiencia .info {
+		width: 55%;
+		display: inline-block;
+		vertical-align: middle
+	}
+
+	.module__unaExperiencia .info {
+		width: 45%;
+		padding: 30px 25px 20px
+	}
+
+	.module__unaExperiencia .title {
+	    width: 445px;
+	    top: -50px;
+    	left: 0
+    }
+
+    .module__unaExperiencia .title:after {
+	    width: 220px;
+	    border-width: 5px
+    }
+
+	.module__unaExperiencia .title h2 {
+		font-size: 75px
+	}
+
+}

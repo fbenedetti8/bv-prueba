@@ -1,0 +1,393 @@
+<html>
+<head>
+<style type="text/css">
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+table {
+	font-size: small;
+}
+</style>
+</head>
+
+<body>
+
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <th colspan="4"><table width="100%" border="0" cellspacing="8" cellpadding="0">
+      <tr>
+        <td><a href="http://www.buenas-vibras.com.ar/" target="_blank"><img src="<?=base_url();?>media/frontend/mailings/images/logo_buenas_vibras_viajes.jpg" alt="Buenas Vibras Viajes" width="230" height="56" border="0" title="Buenas Vibras Viajes" style="display:block;"></a></td>
+        <td align="right"><a href="http://www.buenas-vibras.com.ar/" target="_blank"><img src="<?=base_url();?>media/frontend/mailings/images/web_buenas_vibras_viajes.jpg" alt="www.buenas-vibras.com.ar" width="219" height="15" border="0" title="Ingres&aacute; a nuestra web" style="display:block;"></a></td>
+      </tr>
+    </table></th>
+  </tr>
+  <tr>
+    <th colspan="4" bgcolor="#d52274"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="100"><table width="100%" border="0" cellspacing="8" cellpadding="0">
+          <tr>
+            <td>
+            <font color="#FFFFFF" face="Trebuchet MS" style="font-size:28px; text-transform:uppercase; line-height:32px; display:block; margin-left:15px; margin-top:15px; text-align:left;"> <b>pre-viaje</b><br>
+            </font>
+            <font color="#262626" face="Trebuchet MS" style="font-size:14px; text-transform:uppercase; line-height:18px; display:block; margin-left:15px; text-align:left;"><b> toda la informaci&#243;n a tener en cuenta.</b></font></b><br>
+            </font>     
+            </td>
+          </tr>
+        </table></td>
+        <td width="10%" align="right" valign="bottom"><img src="<?=base_url();?>media/frontend/mailings/images/eme_b_v.png" alt="Pancho Buenas Vibras" width="140" height="95" border="0" title="Buenas Vibras"></td>
+      </tr>
+    </table></th>
+  </tr>
+  <tr>
+    <th colspan="4" valign="top"><font color="#262626" face="Trebuchet MS" style="font-size:14px; text-transform:uppercase; line-height:0px;"><img src="<?=base_url();?>media/frontend/mailings/images/separa_colores.jpg" width="601" height="3" alt="Div Header" style="display:block;"></font></th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" >&nbsp;</th>
+  </tr>
+  
+  <tr>
+    <th colspan="4"><table width="100%" border="0" cellspacing="8" cellpadding="0">
+      <tr>
+        <td width="2%" rowspan="3">&nbsp;</td>        
+        <td>
+        <font color="#50bacd" face="Trebuchet MS" style="font-size:16px; line-height:18px; text-align:left;">
+        Antes que nada... &#161;Gracias por habernos elegido&#33;  :)<br>
+        </font>
+        <font color="#262626" face="Trebuchet MS" style="font-size:12px; line-height:18px; text-align:left;">
+		Te contamos que est&#225; llegando el momento del viaje as&#237; que vamos a ir comunic&#225;ndonos por este medio, 
+		envi&#225;ndote toda la informaci&#243;n a tener en cuenta.</font><br>
+		<font color="#d52274" face="Trebuchet MS" style="font-size:12px; font-weight:bold; line-height:18px;">
+        **** <a style=" color:#d52274; text-decoration:underline; text-align:left;" href="#">Le&#233; todo</a> y confirm&#225; entre tus amigos que todos lo hayan recibido y le&#237;do ****
+        </font>                 
+        </td>
+        <td width="2%" rowspan="3">&nbsp;</td>            
+      </tr>      
+    </table></th>
+  </tr> 
+  
+  <tr>
+    <th colspan="4" width="601" >&nbsp;</th>
+  </tr>
+ 
+  <tr>
+    <th colspan="4" width="601" style="background:#ffc119; padding:15px 15px 15px 15px;">
+    <font color="#d52274" face="Trebuchet MS" style="font-size:16px; line-height:21px; font-weight:bold; text-align:left; display:block;">
+    <img src="<?=base_url();?>media/frontend/mailings/images/ic_banderita.png" border="0" style="display:block; float:left; margin-right:10px; text-align:left;">SALIDA JUEVES 19 DE JUNIO
+	</font><br>
+    <font color="#262626" face="Trebuchet MS" style="font-size:16px; text-align:left; display:block; font-weight:100;">
+    <font style="font-weight:bold; text-align:left;">18:00 hs.</font> en Av 9 de Julio e Independencia <br>
+	<font style="font-weight:bold; text-align:left;">18:45 hs.</font> en M&#225;rquez y Panamericana. <br>
+	<font style="font-weight:bold; color:#d52274; font-size:12px; text-align:left;">* IMPORTANTE!:</font> <font style="color:#262626; font-size:12px;">Hay que llegar con media hora de anticipaci&#243;n as&#237; podemos salir a horario.</font>
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#fff; height:2px;">
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#57c58e; padding:2px 15px 2px 15px;">
+    <font color="#fff" face="Trebuchet MS" style="font-size:16px; line-height:35px; font-weight:bold; text-align:left; display:block;">
+    <img src="<?=base_url();?>media/frontend/mailings/images/ic_ubica.png" border="0" style="display:block; float:left; margin-right:10px; text-align:left;">SOBRE LOS LUGARES DE SALIDA
+	</font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    SUBIDAS AL MICRO<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    &#8226; Si vas a subir en Av. 9 de Julio y Av. Independencia, los micros van a estar estacionados sobre la Av. Independencia.<br>
+    &#8226; Si indicaste en Marquez y Panamericana (San Isidro): sobre la colectora de la Panamericana en sentido contrario a Capital Federal, en la sucursal del Banco Franc&#233;s que est&#225; cruzando la Av. <br>
+    <!--&#8226; Si indicaste en XXXXXXX (rosario) los micros van a estar...-->
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4">
+      <table width="100%" border="0" cellspacing="8" cellpadding="0">
+      <tr>
+        <td>
+        <a href="#">
+        <img src="<?=base_url();?>media/frontend/mailings/images/salgo_de_bsas.png" border="0" style="display:block;">
+        </a>
+        </td>        
+        <td>
+        <!--<a href="#">
+        <img src="<?=base_url();?>media/frontend/mailings/images/salgo_de_rosario.png" border="0" style="display:block;">
+        </a>-->                   
+        </td>           
+      </tr>      
+    </table>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    el momento de la salida<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    &#8226; Ten&#233; cuidado con el equipaje, no lo pierdas de vista. Podes ir al ba&#241;o y comprar todo lo que necesites antes de la hora de salida.<br>
+    &#8226; Los coordinadores a cargo (ver m&#225;s abajo) van a ir nombrando por nombre y apellido a los pasajeros para subir al micro.<br>    
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#fff; height:15px;">
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#5d55ff; padding:2px 15px 2px 15px;">
+    <font color="#fff" face="Trebuchet MS" style="font-size:16px; line-height:35px; font-weight:bold; text-align:left; display:block;">
+    <img src="<?=base_url();?>media/frontend/mailings/images/ic_valija.png" border="0" style="display:block; float:left; margin-right:10px;">&#191;QU&#201; HAY QUE LLEVAR&#63;
+	</font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    DOCUMENTACIONES<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    &#8226; Documentos de indentidad.<br>
+    &#8226; Todo lo relacionado con la cobertura m&#233;dica (como siempre que te vas de viaje, ten&#233; a mano y averigua con anticipaci&#243;n los tel&#233;fonos para eventuales emergencias m&#233;dicas en el lugar de destino a pesar de que todos nuestros pasajeros cuentan con la cobertura de Assist Card).
+    <br>    
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    EN LA VALIJA:<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    &#8226; Llevar solo lo necesario y teniendo en cuenta que en esta &#233;poca suele estar agradable de d&#237;a y por la noche hace fr&#237;o.<br>
+    &#8226; Elementos de higiene personal.<br> 
+    &#8226; C&#225;mara de fotos, pilas y cargador.<br>
+    &#8226; Celular con cr&#233;dito suficiente (llevate tambi&#233;n el cargador!!) 
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block;">
+    * Hombres: <br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    Lleven algo de ropa, no pueden estar todo el viaje con la misma remera, pantal&#243;n y ropa interior!!!<br>     
+    </font>
+    <br>
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block;">
+    * Mujeres: <br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    Eviten todas las cosas estilo "por las dudas": no hace falta llevarse ropa para una fiesta, ni vestidos, ni perfumes, tacos altos, maquillajes, cremas para las manos, cremas para la cara, ropa por si hace fr&#237;o, ropa por si hace calor, ropa por si llueve, ropa, ropa y m&#225;s ropa, cosm&#233;ticos, shampoo, planchita para el pelo, crema de enjuague, ba&#241;os de crema y vaya uno a saber cu&#225;ntos miles y miles de cosas m&#225;s pueden llegar a llevar (las cosas que hemos visto en todos nuestros viajes !!)
+	(como siempre decimos en nuestros viajes, recuerden que por m&#225;s cosas que se pongan, los hombres siempre se fijan en lo de adentro).
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#fff; height:15px;">
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#e14318; padding:2px 15px 2px 15px;">
+    <font color="#fff" face="Trebuchet MS" style="font-size:16px; line-height:35px; font-weight:bold; text-align:left; display:block;">
+    <img src="<?=base_url();?>media/frontend/mailings/images/ic_micro.png" border="0" style="display:block; float:left; margin-right:10px;">&#191;EN EL MICRO&#63;
+	</font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    PROVISIONES:<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    &#8226; Mate, yerba, termo (preferentemente irrompible) con agua caliente y algo para ir comiendo durante el viaje. <br>
+    &#8226; Una manta por si te da fr&#237;o el aire acondicionado del micro.<br> 
+    &#8226; Tambi&#233;n pod&#233;s llevar CDs y DVDs para escuchar y ver durante el viaje.<br>    
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    SOBRE ALCOHOL Y/O SUSTANCIAS PROHIBIDAS:<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    A medida que nos vamos acercando a las zonas de frontera aumentan los controles de Gendarmer&#237;a en las rutas. Esos controles pueden ser solo de documentaci&#243;n o pueden llegar a revisar todo el micro, a los pasajeros y todo el equipaje completo.
+     <br><br>
+	BUENAS VIBRAS VIAJES no es responsable por la tenencia, consumo, etc. de sustancias o elementos que se encuentran prohibidos seg&#250;n las leyes vigentes. Si la Gendarmer&#237;a o cualquier tipo de control policial detecta que alg&#250;n pasajero tiene o consume alguna de esas sustancias prohibidas, no vamos a demorar el viaje por dicho motivo y ese pasajero tendr&#225; que quedarse en el puesto de control, haci&#233;ndose responsable de todas las consecuencias que ello implica, ya sea el pago de una multa o la detenci&#243;n del pasajero, sin derecho a reintegro del importe pagado por todo el viaje.
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#fff; height:15px;">
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#66c0e8; padding:2px 15px 2px 15px;">
+    <font color="#fff" face="Trebuchet MS" style="font-size:16px; line-height:35px; font-weight:bold; text-align:left; display:block;">
+    <img src="<?=base_url();?>media/frontend/mailings/images/ic_buenas_v.png" border="0" style="display:block; float:left; margin-right:10px;">SOBRE EL VIAJE
+	</font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    FIESTA DE DISFRACES<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    Tenemos organizado en una de las noche una fiesta de disfraces. Vayan pensando de qu&#233; se van a disfrazar y lleven todo desde Buenos Aires. No vale disfrazarse con s&#225;banas y toallas del hotel !!!
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    CONVIVENCIA<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    Vamos a ser un grupo que va a estar conviviendo durante varios d&#237;as. Por respeto a quienes no lo hacen, no se puede fumar dentro de los micros y tampoco se puede fumar dentro de los lugares donde nos alojamos o donde comemos (hay suficiente espacio libre y abierto para que puedan hacerlo quienes lo deseen). Cuid&#225; el lugar de alojamiento y manten&#233; todo en orden y limpio para que la estad&#237;a sea lo m&#225;s agradable para todos.
+	Solo pueden ingresar al Alojamiento las personas que est&#233;n con nosotros y en tanto tengan puesta la pulsera identificatoria que los coordinadores les van a entregar.
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    ASIGNACI&#243;N DE HABITACIONES:<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    Como todos ya saben, las habitaciones son compartidas solo con quienes viajan con BUENAS VIBRAS VIAJES. Vamos a asignarlas durante el viaje de ida, en el micro, una vez que todos se vayan conociendo as&#237; se pueden agrupar como ustedes quieran.
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    GASTOS ADICIONALES EN EL LUGAR DEL DESTINO<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    Quienes viajan con nosotros normalmente gastan en consumiciones dentro de los boliches a los que vamos, en las comidas no incluidas, regalos o recuerdos que compren en el lugar y algunas cosas que puedan comprarse durante el viaje en las paradas que hacemos. Esto es dif&#237;cil de estimar porque cada uno acostumbra a hacerlo de forma diferente.
+
+    </font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    Costo de entradas a los parques:<br>
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    Parque Nacional Ischigualasto (Valle de Luna): Argentinos $100 Extranjeros $160<br>
+	Parque Nacional Talampaya: Argentinos $35 Extranjeros $80
+    </font>
+    </th>
+  </tr>
+  
+   <tr>
+    <th colspan="4" width="601" style="background:#fff; height:15px;">
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="background:#dcab0a; padding:2px 15px 2px 15px;">
+    <font color="#fff" face="Trebuchet MS" style="font-size:16px; line-height:35px; font-weight:bold; text-align:left; display:block;">
+    <img src="<?=base_url();?>media/frontend/mailings/images/ic_coordina.png" border="0" style="display:block; float:left; margin-right:10px;">COORDINADORES DE BUENAS VIBRAS
+	</font>
+    </th>
+  </tr>
+  
+  <tr>
+    <th colspan="4" width="601" style="padding:10px 15px 2px 15px;">
+    <font color="#343434" face="Trebuchet MS" style="font-size:14px; font-weight:bold; text-align:left; display:block; text-transform:uppercase;">
+    German Cairol- Juan Reyes<br>  
+	Celular: 11-6937410
+	</font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    AGENDEN NUESTRO CELULAR:<br> 
+	No env&#237;es sms en el momento de la salida, es muy probable que no se pueda responder si todos hacen lo mismo al mismo tiempo. En caso de ser necesario, llama directamente.<br> 
+	Estos tel&#233;fonos van a estar disponibles solo a partir del d&#237;a de salida ya que los coordinadores se encuentran viajando con otros grupos y ellos no cuentan con informaci&#243;n de tipo administrativa, si necesitas consultarnos algo antes podes llamar a nuestra oficina.
+    </font><br>
+    <font color="#195d9d" face="Trebuchet MS" style="font-size:16px; font-weight:bold; text-align:left; line-height:23px; display:block;">
+    Nos vemos en unos d&#237;as !!!
+    </font>
+    <font color="#343434" face="Trebuchet MS" style="font-size:12px; font-weight:100; text-align:left; line-height:23px; display:block;">
+    El Staff de BUENAS VIBRAS VIAJES
+    </font>
+    </th>
+  </tr>
+ 
+ 
+  
+  <tr>
+    <th colspan="4" valign="top"><img src="<?=base_url();?>media/frontend/mailings/images/separa_colores.jpg" width="601" height="3" style="margin-top:25px; display:block;"></th>
+  </tr>
+  
+  <tr>
+    <th colspan="4"><table width="100%" border="0" cellspacing="15" cellpadding="0" bgcolor="#F7F7F7" style="text-align:left;">
+      <tr>
+        <td height="19"><table width="100%" border="0" cellspacing="8" cellpadding="0" >
+          <tr>
+            <td width="9%"><a href="mailto:info@buenas-vibras.com.ar" target="_blank"><img src="<?=base_url();?>media/frontend/mailings/images/info_buenasvibras.jpg" alt="Mail Buenas Vibras" width="37" height="33" border="0"></a></td>
+            <td width="39%"><font color="#262626" face="Trebuchet MS" style="font-size:12px; line-height:16px; text-align:left;"> <b> ESCRIBINOS</b></font><font color="#00DA7B" face="Trebuchet MS" style="font-size:14px; line-height:16px;"> <b> <br>
+              <a style="color:#00DA7B; text-decoration:none; text-align:left;" href="mailto:info@buenas-vibras.com.ar" target="_blank">info@buenas-vibras.com.ar</a></b></font></td>
+            <td width="9%"><a href="http://www.facebook.com/buenas.vibras" target="_blank"><img src="<?=base_url();?>media/frontend/mailings/images/icono_facebook.jpg" alt="Mail Buenas Vibras" width="33" height="32" border="0"></a></td>
+            <td width="58%"><font color="#21579F" face="Trebuchet MS" style="font-size:12px; line-height:16px; text-align:left;"> <b> FACEBOOK</b></font><font color="#262626" face="Trebuchet MS" style="font-size:12px; line-height:16px;"> <b> <br>
+              <a style="color:#262626; text-decoration:none; text-align:left;" href="http://www.facebook.com/buenas.vibras" target="_blank">www.facebook.com/buenas.vibras</a></b></font></td>
+          </tr>
+          <tr>
+            <td><img src="<?=base_url();?>media/frontend/mailings/images/icono_telefono.jpg" alt="Mail Buenas Vibras" width="40" height="27" border="0"></td>
+            <td><font color="#262626" face="Trebuchet MS" style="font-size:12px; line-height:16px; text-align:left;"> <b> BUENOS AIRES</b></font><font color="#FD7247" face="Trebuchet MS" style="font-size:14px; line-height:16px;"> <b> <br>
+              (011) 5235-3810 </b></font></td>
+            <td><a href="http://www.instagram.com/buenasvibrasviajes" target="_blank"><img src="<?=base_url();?>media/frontend/mailings/images/icono_instagram.jpg" alt="Mail Buenas Vibras" width="32" height="32" border="0"></a></td>
+            <td><font color="#A5694F" face="Trebuchet MS" style="font-size:12px; line-height:16px; text-align:left;"> <b> INSTAGRAM</b></font><font color="#262626" face="Trebuchet MS" style="font-size:12px; line-height:16px;"> <b> <br>
+              <a style="color:#262626; text-decoration:none; text-align:left;" href="http://www.instagram.com/buenasvibrasviajes" target="_blank">www.instagram.com/buenasvibrasviajes</a></b></font></td>
+          </tr>
+          <tr>
+            <td><img src="<?=base_url();?>media/frontend/mailings/images/ic_ubicacion.jpg" alt="Mail Buenas Vibras" width="33" height="34" border="0"></td>
+            <td><font color="#262626" face="Trebuchet MS" style="font-size:12px; line-height:16px; text-align:left;"> <b>
+              Ciudad de la Paz 2846 5&#176;B - CABA</b></font></td>
+            <td><a href="http://www.twitter.com/buenas_vibras_v" target="_blank"><img src="<?=base_url();?>media/frontend/mailings/images/icono_twitter.jpg" alt="Mail Buenas Vibras" width="33" height="33" border="0"></a></td>
+            <td><font color="#00ABE3" face="Trebuchet MS" style="font-size:12px; line-height:16px; text-align:left;"> <b> TWITTER</b></font><font color="#262626" face="Trebuchet MS" style="font-size:12px; line-height:16px;"> <b> <br>
+              <a style="color:#262626; text-decoration:none; text-align:left;" href="http://www.twitter.com/buenas_vibras_v" target="_blank">www.twitter.com/buenas_vibras_v</a></b></font></td>
+          </tr>
+        </table></td>
+        </tr>
+    </table></th>
+  </tr>
+  <tr>
+    <th colspan="4" bgcolor="#E6E6E6"><font color="#797979" face="Trebuchet MS" style="font-size:16px; line-height:25px;"> <b>Buenas Vibras Viajes</b> - EVT Leg 14.641</font></th>
+  </tr>
+  <tr>
+    <th height="50" colspan="4" bgcolor="#FFFFFF"><font color="#333333" face="Trebuchet MS" style="font-size:11px; text-transform:uppercase;">SI NO QUER&Eacute;S RECIBIR M&Aacute;S INFORMACI&Oacute;N DE NUESTRA EMPRESA, HAC&Eacute; <a href="http://web.mailseguros.com.ar/remover.asp?il=buenasvibras" style="color:#0199d7;">CLICK AQU&#237;</a><br /> 
+          Y SER&Aacute;S REMOVIDO EN FORMA AUTOM&Aacute;TICA DE LA LISTA DE ENV&Iacute;OS.</font></th>
+  </tr>
+</table>
+</body>
+</html>

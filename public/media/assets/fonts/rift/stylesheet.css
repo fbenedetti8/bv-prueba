@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Rift Soft';
+    src: url('RiftSoft-Italic.woff2') format('woff2'),
+        url('RiftSoft-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift Demi';
+    src: url('Rift-DemiItalic.woff2') format('woff2'),
+        url('Rift-DemiItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift';
+    src: url('Rift-LightItalic.woff2') format('woff2'),
+        url('Rift-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift Soft';
+    src: url('RiftSoft-Light.woff2') format('woff2'),
+        url('RiftSoft-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift';
+    src: url('Rift-Italic.woff2') format('woff2'),
+        url('Rift-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift Soft';
+    src: url('RiftSoft-MediumItalic.woff2') format('woff2'),
+        url('RiftSoft-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift';
+    src: url('Rift-Medium.woff2') format('woff2'),
+        url('Rift-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift Soft';
+    src: url('RiftSoft-Regular.woff2') format('woff2'),
+        url('RiftSoft-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift';
+    src: url('Rift-MediumItalic.woff2') format('woff2'),
+        url('Rift-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift Soft Demi';
+    src: url('RiftSoft-Demi.woff2') format('woff2'),
+        url('RiftSoft-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift';
+    src: url('Rift-Light.woff2') format('woff2'),
+        url('Rift-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift Soft';
+    src: url('RiftSoft-Bold.woff2') format('woff2'),
+        url('RiftSoft-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift';
+    src: url('Rift-Bold.woff2') format('woff2'),
+        url('Rift-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift Demi';
+    src: url('Rift-Demi.woff2') format('woff2'),
+        url('Rift-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift Soft';
+    src: url('RiftSoft-Medium.woff2') format('woff2'),
+        url('RiftSoft-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift';
+    src: url('Rift-BoldItalic.woff2') format('woff2'),
+        url('Rift-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift';
+    src: url('Rift-Regular.woff2') format('woff2'),
+        url('Rift-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rift Soft';
+    src: url('RiftSoft-BoldItalic.woff2') format('woff2'),
+        url('RiftSoft-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift Soft Demi';
+    src: url('RiftSoft-DemiItalic.woff2') format('woff2'),
+        url('RiftSoft-DemiItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rift Soft';
+    src: url('RiftSoft-LightItalic.woff2') format('woff2'),
+        url('RiftSoft-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+

@@ -1,0 +1,117 @@
+/*SubHeader*/
+.proximos_viajes .module__subHeader .cont-info .bg figure{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(1){
+    width: 310px;
+}
+
+.proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(2){
+  width: 600px;
+  bottom: -46px;
+  right: 0;
+}
+
+.proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(3){
+  width: 480px;
+  right: 40px;
+  bottom: 50px;
+}
+
+.button-ver-mas{
+  display: none;
+}
+
+@media (max-width:1200px){
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(2) {
+    width: 540px;
+    bottom: -42px;
+    right: 0;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(3){
+    width: 350px;
+    right: 40px;
+    bottom: 70px;
+  }
+}
+
+
+@media (max-width:992px){
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(1) {
+    width: 250px;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(2) {
+    width: 410px;
+    bottom: -32px;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(3) {
+    width: 280px;
+    right: 30px;
+    bottom: 50px;
+  }
+}
+
+
+@media (max-width:768px){
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(1) {
+    width: 250px;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(2) {
+      width: 90%;
+      bottom: -42px;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(3) {
+    width: 340px;
+    right: 47px;
+    bottom: 50px;
+  }
+}
+
+
+@media (max-width:510px){
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(1) {
+    width: 210px;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(2) {
+      width: 100%;
+      bottom: -25px;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(3) {
+    width: 280px;
+    right: 50px;
+    bottom: 50px;
+  }
+  .button-ver-mas{
+    display: block;
+  }
+  .proximos_viajes .button-ver-mas .btn-pink-outline{
+    border-width:2px;
+    font-weight: bold;
+    padding: 4px 35px;
+  }
+}
+
+@media(max-width:480px){
+  .module__subHeader .cont-info {
+    margin-top: 50px;
+  }
+
+}
+
+
+@media(max-width:390px){
+  .module__subHeader .cont-info {
+    margin-top: 50px;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(2) {
+      width: 100%;
+      bottom: -15px;
+  }
+  .proximos_viajes .module__subHeader .cont-info .bg figure:nth-child(3) {
+    width: 260px;
+    right: 40px;
+  }
+}

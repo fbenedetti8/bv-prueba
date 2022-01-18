@@ -1,0 +1,1324 @@
+.highlight .interna-paquete{
+  background: url("../images/hero/hl_interna_paquete.png") center center no-repeat;
+  background-size: cover;
+  height: 460px;
+  position: relative;
+}
+
+.highlight .interna-paquete,
+.highlight .interna-paquete .cont-info{
+
+}
+
+.highlight.hl-interna-paquete figure.line{
+    z-index: 2;
+}
+
+.highlight.hl-interna-paquete figure.line.-one{
+  top: 170px;
+}
+
+.highlight.hl-interna-paquete figure.line.-two{
+  top: 180px;
+}
+
+.highlight .interna-paquete figure.line.-thrird{
+  top: 20px;
+  width: 90px;
+  right: 10px;
+}
+
+/*Module Intro*/
+.interna-paquete .module__aside_info{
+  float: left;
+  width: 67%;
+  padding-top: 16px;
+  padding-bottom: 200px;
+}
+
+.interna-paquete .intro{
+  padding-top: 0;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.interna-paquete .intro .title{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.interna-paquete .intro .title h2{
+  font-family: "Rift soft";
+  font-weight: bold;
+  font-size: 42px;
+  color:#00adee;
+  margin-top: 20px;
+}
+
+.interna-paquete .intro .trama.-one{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -7px;
+  width: 240px;
+  z-index: -5;
+}
+
+.interna-paquete .intro .interactions .icons{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.interna-paquete .intro .interactions .icons i{
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.interna-paquete .intro .interactions .icons span{
+  display: inline-block;
+  font-family: "Helvetica Neue LT STD";
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.interna-paquete .intro .interactions .icons a{
+  color: #00205f;
+}
+
+.interna-paquete .intro .interactions .icons a:hover{
+  text-decoration: none;
+}
+
+.interna-paquete .intro .subtitle{
+  float:left;
+}
+
+.interna-paquete .intro .subtitle .text{
+  float:left;
+  width: 67%;
+  border-bottom: 1px solid #00205f;
+  padding-bottom: 20px;
+}
+
+.interna-paquete .intro .subtitle .text p{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.interna-paquete .intro .subtitle .ideal{
+  float:left;
+  width: 30%;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -10px;
+}
+
+.interna-paquete .intro .subtitle .ideal p{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+  display: inline-block;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.interna-paquete .intro .subtitle .ideal .group-buttons{
+  margin-right: 20px;
+}
+
+
+.interna-paquete .intro .subtitle .ideal .group-buttons .btn-photo{
+  background: url('../images/icons/icon-photo.png') center center no-repeat;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  background-size: 100% auto;
+  margin-right: 10px;
+}
+
+.interna-paquete .intro .subtitle .ideal .group-buttons .btn-config{
+  background: url('../images/icons/icon-config.png') center center no-repeat;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  background-size: 100% auto;
+}
+
+.interna-paquete .intro .subtitle .ideal .tooltip.in{
+  opacity:1!important;
+  color:#22275b;
+}
+.interna-paquete .intro .subtitle .ideal .tooltip-inner{
+  font-family: "rift soft";
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #6ceed5;
+  color:#22275b;
+  border-radius: 0;
+  opacity: 1 !important;
+  position: absolute;
+  bottom:-7px;
+  left: -35px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+}
+.interna-paquete .intro .subtitle .ideal .tooltip-arrow { border:none; }
+
+/*Module Features*/
+.module__features {
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #00205f;
+  padding-bottom: 10px;
+}
+
+.module__features .listado{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+
+.module__features .listado .item{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+.module__features .listado .item{
+  font-family: "Helvetica Neue LT STD";
+  font-size: 12px;
+  font-weight: bold;
+  width: 16%;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin: 0 1%;
+  margin-bottom: 7px;
+}
+
+.module__features .listado .item .feature{
+  display: flex;
+}
+
+.module__features .listado .item figure{
+  width: 40px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.module__features .listado .item figure img{
+  width: inherit;
+}
+
+.module__features .listado .item .text{
+  display: inline-block;
+  align-self: center;
+}
+
+.module__features .listado .item .text p{
+  font-size: 12px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+/* Fin Module Featues*/
+
+
+/*Module Configuracion*/
+.module__configuracion{
+  float: left;
+  width: 100%;
+}
+
+.module__configuracion .option{
+  margin-bottom: 15px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.module__configuracion .option .title h3{
+  font-family: "Rift Soft";
+  font-weight: bold;
+  font-size: 24px;
+  color:#00adee;
+  margin-top: 0;
+}
+
+.module__configuracion .option .group-selectores .form{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.module__configuracion .option .group-selectores .form .selectors{
+  float: left;
+  margin-right: 15px
+}
+
+.module__configuracion .option .group-selectores .form .selectric-label {
+  font-family: 'Helvetica Neue LT STD';
+  font-weight: bold;
+  margin: 0;
+	padding: 0 15px;
+	border-radius: 0;
+	color: #00205f;
+	font-size: 14px;
+	position: relative;
+}
+
+
+.module__configuracion .configura__tuexperiencia{
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
+
+/*Configura tu Experiencia*/
+.module__configuracion .option.configura__tuexperiencia .group-selectores .form .selectors:nth-child(1){
+  width: 22%;
+}
+
+.module__configuracion .option.configura__tuexperiencia .group-selectores .form .selectors:nth-child(2){
+  width: 40%;
+}
+
+.module__configuracion .option.configura__tuexperiencia .group-selectores .form .selectors:nth-child(3){
+  margin-right: 0;
+  width: 34%;
+}
+
+
+.module__configuracion .option.configura__transporte{
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.module__configuracion .option.configura__transporte .group-selectores{
+  float: left;
+  width: 37%;
+}
+
+.module__configuracion .option.configura__transporte .group-selectores .form{
+  float: left;
+  width: 100%;
+}
+
+.module__configuracion .option.configura__transporte .group-selectores .form .selectors:nth-child(1){
+  width: 100%;
+  margin-right:0;
+}
+
+.module__configuracion .option.configura__transporte .group-text{
+  float: left;
+  width: 59%;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+.module__configuracion .option.configura__alojamiento{
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+
+/*Configura tu Alojamiento*/
+.module__configuracion .option.configura__alojamiento .group-selectores .form .selectors.-one{
+  width: 40%;
+}
+
+.module__configuracion .option.configura__alojamiento .group-selectores .form .selectors.-two{
+  width: 34%;
+}
+
+.module__configuracion .option.configura__alojamiento .group-selectores .form .selectors.-three{
+  margin-right: 0;
+  width: 22%;
+}
+
+
+.module__configuracion .option.configura__alojamiento .info-adicional.-desk{
+  display: block;
+}
+
+.module__configuracion .option.configura__alojamiento .info-adicional.-mob{
+  display: none;
+}
+
+.module__configuracion .option.configura__alojamiento .info-adicional{
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.module__configuracion .option.configura__alojamiento .info-adicional .listado{
+  width: 100%;
+}
+
+.module__configuracion .option.configura__alojamiento .info-adicional .listado li{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  width: auto;
+  margin-right: 16px;
+}
+
+.module__configuracion .option.configura__alojamiento .info-adicional .listado .item a{
+  color: #00205f;
+}
+
+.module__configuracion .option.configura__alojamiento .info-adicional .listado .item a:hover{
+  text-decoration: none;
+}
+
+.module__configuracion .option.configura__alojamiento .info-adicional .listado .item .text{
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.module__configuracion .option.configura__alojamiento .info-adicional .listado .item p{
+  margin-bottom: 0;
+}
+.module__configuracion .option.configura__alojamiento .info-adicional .listado .item figure{
+  display: inline-block;
+  width: 15px;
+}
+
+
+/*Module Adicionales*/
+.module__configuracion .module__adicionales{
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.module__adicionales .info-adicional .listado{
+  width: 100%;
+}
+
+.module__configuracion .module__adicionales .info-adicional .listado li{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  margin-right: 16px;
+  margin: 7px 0;
+}
+
+.module__configuracion .module__adicionales .info-adicional .listado .item{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.module__configuracion .module__adicionales .info-adicional .listado .item a{
+  color: #00205f;
+}
+
+.module__configuracion .module__adicionales .info-adicional .listado .item a:hover{
+  text-decoration: none;
+}
+
+.module__configuracion .module__adicionales .info-adicional .listado .item .text{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: normal;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 0;
+}
+.module__configuracion .module__adicionales .info-adicional .listado .item p{
+  margin-bottom: 0;
+  align-self: center;
+}
+.module__configuracion .module__adicionales .info-adicional .listado .item p strong{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+  font-size: 14px;
+}
+.module__configuracion .module__adicionales .info-adicional .listado .item figure{
+  display: inline-block;
+  width: 15px;
+  margin-right: 8px;
+}
+/*Module Adicionales*/
+
+/*Module Informacion Important */
+.module__configuracion .module__inforimporante{
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.module__configuracion .module__inforimporante .box{
+  border: 1px solid #00205f;
+}
+
+.module__configuracion .module__inforimporante .box > .title{
+  border-bottom: .5px solid #00205f;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.module__configuracion .module__inforimporante .box > .title p{
+  font-family: "Rift Soft";
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.module__configuracion .module__inforimporante .box > .title figure{
+  width: 30px;
+  display: inline-block;
+  align-self: center;
+  margin-right: 10px;
+}
+
+
+
+.module__configuracion .module__inforimporante .box .opciones{
+  padding: 20px 25px;
+}
+
+.module__configuracion .module__inforimporante .box .opciones .item > .title{
+  font-family: "Rift Soft";
+  font-weight: bold;
+  font-size: 24px;
+  color: #00adee;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.module__configuracion .module__inforimporante .box .opciones .item > .title p{
+  margin-bottom: 0;
+}
+
+.module__configuracion .module__inforimporante .box .opciones .item > .info p{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: normal;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 0;
+}
+
+.module__configuracion .module__inforimporante .box .opciones .sub-opciones{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.module__configuracion .module__inforimporante .box .opciones .sub-opciones .item{
+  flex-basis: 49%;
+  margin-bottom: 20px;
+}
+
+.module__configuracion .module__inforimporante .box .opciones .sub-opciones .item  p{
+  display: block;
+  margin-bottom: 0;
+}
+
+.module__configuracion .module__inforimporante .box .opciones .sub-opciones .item .special  p{
+  width: 85%;
+}
+
+/* Fin Module Informacion Important */
+
+/*Gallery*/
+.module__configuracion .module__gallery.gallery-desk{
+  display: block;
+}
+.module__gallery.gallery-mob{
+  display: none;
+}
+
+.module__configuracion .module__gallery{
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.module__configuracion .module__gallery .picture{
+  float: left;
+  width: 80%;
+}
+
+.module__configuracion .module__gallery .info{
+  float: right;
+  width: 18%;
+}
+
+.module__configuracion .module__gallery .info .cont-thumbs{
+  float: left;
+  width: 100%;
+  text-align: right;
+}
+
+.module__configuracion .module__gallery .info .cont-thumbs .thumbs {
+  float: right;
+  width: 95%;
+  margin-bottom: 9%;
+}
+
+.module__configuracion .module__gallery .info .cont-thumbs .thumbs img{
+  width: 80%;
+}
+
+.module__configuracion .module__gallery .info .cont-thumbs .btn-ver-mas{
+  background-color: transparent;
+  width: 76%;
+  border: 1px solid #000;
+  text-align: center;
+  float: right;
+}
+
+.module__configuracion .module__gallery .info .cont-thumbs button{
+  border: 0;
+  background-color: transparent;
+  color: #000;
+  padding: 15px 15px;
+}
+
+.module__configuracion .module__gallery .info .cont-thumbs button a{
+  color: #000;
+}
+
+.module__configuracion .module__gallery .info .cont-thumbs button a:hover{
+  text-decoration: none;
+}
+
+
+
+
+/* Fin Gallery*/
+
+
+/**/
+
+.module__configuracion .selectric {
+  background-color: #e5f7fe;
+	border: 1px solid transparent;
+	border-radius: 0;
+	color: #3b3a3a;
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.selectric-label {
+	margin: 0;
+	padding: 0 15px;
+	border-radius: 5px;
+	color: #3b3a3a;
+	font-size: 14px;
+	font-family: 'Roboto';
+	position: relative;
+}
+
+.selectric-label:before {
+  content: '';
+  background: url('../images/icons/icon-arrow-down.png') center center no-repeat;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-size: 60% auto;
+	position: absolute;
+	top: 50%;
+	right: 15px;
+		-webkit-transform: translate(0, -50%);
+		-moz-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	transition: transform 0.2s linear
+}
+
+.selectric-open .selectric-label:before {
+		-webkit-transform: translate(0, -50%) rotate(180deg);
+		-moz-transform: translate(0, -50%) rotate(180deg);
+		-ms-transform: translate(0, -50%) rotate(180deg);
+	transform: translate(0, -50%) rotate(180deg);
+	transition: transform 0.2s linear
+}
+
+.selectric-items {
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: 'Roboto';
+	box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+
+.selectric-items .highlighted {
+	color: inherit !important
+}
+
+
+
+/**/
+.module__aside_ticket{
+  float: right;
+  width: 30%;
+}
+
+.ticket-mobile{
+  display: none;
+}
+
+.box__ticket{
+  background-color: #00adee;
+  width: 92%;
+  float: right;
+}
+
+.box__ticket .box-head{
+  padding: 15px 35px;
+}
+
+.box__ticket .box-head .top{
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.box__ticket .box-head .top .total .text{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+  font-size: 12px;
+  color:#fff;
+  margin-bottom: 3px;
+}
+
+.box__ticket .box-head .top .total .text.now{
+  color:#ff5c5c;
+}
+
+
+.box__ticket .box-head .top .total .detalle{
+  font-family: "Rift soft";
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box__ticket .box-head .top .total .detalle p{
+  margin-bottom: 0;
+}
+
+.box__ticket .box-head .top .total .detalle .price{
+  font-size: 30px;
+  line-height: 1;
+}
+
+.box__ticket .box-head .top .total .detalle .imp{
+  font-size: 20px;
+  color: #a2e6ff;
+}
+
+.box__ticket .box-head .top .total .detalle .btn-detalle{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+  font-size: 12px;
+  color: #a2e6ff;
+  align-self: flex-end;
+  width: 20%;
+  cursor: pointer;
+}
+
+.box__ticket .box-head .top .total .detalle .btn-detalle:before{
+  content:'Ver';
+  display: block;
+  transition: all 0.5s;
+}
+
+.box__ticket .box-head .top .total .detalle .btn-detalle.open:before{
+  content:'Ocultar';
+  display: block;
+  transition: all 0.5s;
+}
+
+
+.box__ticket .box-head .info-detalle{
+  font-family: "Helvetica Neue LT STD";
+  font-size: 12px;
+  font-weight: bold;
+  color: #a2e6ff;
+  margin-bottom: 15px;
+}
+
+.box__ticket .box-head .info-detalle p{
+  margin-bottom: 0;
+}
+
+.box__ticket .box-head .info-detalle .option-1{
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box__ticket .box-head .info-detalle .option-1 .item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box__ticket .box-head .info-detalle .option-2{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.box__ticket .box-head .info-detalle .option-2 figure{
+  width: 30px;
+  margin-right: 10px;
+  display: inline-block;
+  align-self: center;
+}
+.box__ticket .box-head .info-detalle .option-2 .group-price{
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: row;
+  flex-basis: 65%;
+}
+.box__ticket .box-head .info-detalle .option-2 .group-price .cant-pasajes{
+  font-family: "Rift soft";
+  font-weight: bold;
+  font-size: 34px;
+  color:#fff;
+  margin-right: 10px;
+}
+.box__ticket .box-head .info-detalle .option-2 .group-price .cant-pasajes span{
+  color: #a2e6ff;
+  font-family: "Rift soft";
+  font-weight: normal;
+}
+
+.box__ticket .box-head .info-detalle .option-2 .group-price .cant-pasajes-text{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+  color: #fff;
+  width: 35%;
+  text-align: left;
+  line-height: 1.1;
+  align-self: center;
+}
+
+.box__ticket .box-head .group-info-button{
+  margin-bottom: 25px;
+  margin-top: 5px;
+  float: left;
+  width: 100%;
+}
+
+/*Button Ticket*/
+.btn-pink.ticket{
+  white-space: inherit;
+  border-radius: 100px;
+  padding: 15px 20px;
+  width: 100%;
+  background-color: #ff5c5d;
+}
+
+.btn-pink.ticket a{
+  font-family: "Helvetica Neue LT STD";
+  font-size: 14px;
+  font-weight: normal !important;
+  line-height: 1.1;
+}
+
+.btn-pink.ticket:hover {
+    background-color: #22275b;
+    transition: all 0.5s;
+}
+
+.btn-pink.ticket a strong{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+}
+
+.btn-pink.ticket a span{
+  font-family: "Rift Soft";
+  font-weight: bold;
+  font-size: 20px;
+}
+/* Fin Button Ticket*/
+
+.box__ticket .box-footer{
+  float: left;
+  width: 100%;
+  background-color: #22275b;
+  color: #fff;
+}
+
+.box__ticket .box-footer .title{
+  font-family: "Helvetica Neue LT STD";
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box__ticket .box-footer .group-buttons-social{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.box__ticket .box-footer .group-buttons-social a{
+  font-family: "Helvetica Neue LT STD";
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  margin: 0 2%;
+}
+
+.box__ticket .box-footer .group-buttons-social a:hover{
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+.box__ticket .box-footer .group-buttons-social a i{
+  font-size: 24px;
+  font-weight: normal;
+  margin-right: 3px;
+}
+
+.box__ticket .box-footer .group-buttons-social a:hover{
+  text-decoration: none;
+}
+
+
+@media(max-width:1200px){
+  .box__ticket .box-head .info-detalle .option-2 .group-price{
+    flex-basis: 100%;
+  }
+
+  .module__configuracion .option .group-selectores .form .selectric-label{
+    font-size: 12px;
+  }
+
+  .box__ticket .box-head {
+    padding: 15px 15px;
+  }
+}
+
+
+
+@media (max-width:992px){
+  .interna-paquete .intro .subtitle .text p{
+    font-size: 14px;
+  }
+  .interna-paquete .intro .subtitle .ideal .group-buttons .btn-config,
+  .interna-paquete .intro .subtitle .ideal .group-buttons .btn-photo{
+    width: 35px;
+    height: 35px;
+  }
+  .module__features{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .module__features .listado{
+    justify-content: space-between;
+  }
+  .module__features .listado .item{
+    width: 21%;
+  }
+
+  .module__configuracion .option .group-selectores .form{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .module__configuracion .option.configura__tuexperiencia .group-selectores .form .selectors:nth-child(1),
+  .module__configuracion .option.configura__tuexperiencia .group-selectores .form .selectors:nth-child(2),
+  .module__configuracion .option.configura__tuexperiencia .group-selectores .form .selectors:nth-child(3){
+    width: 100%;
+  }
+
+  .module__configuracion .option .group-selectores .form .selectors{
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .module__configuracion .option.configura__transporte .group-selectores{
+    width: 100%;
+  }
+
+  .module__configuracion .option.configura__transporte .group-text{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .module__configuracion .option.configura__alojamiento .group-selectores .form .selectors.-one,
+  .module__configuracion .option.configura__alojamiento .group-selectores .form .selectors.-two,
+  .module__configuracion .option.configura__alojamiento .group-selectores .form .selectors.-three{
+    width: 100%;
+  }
+
+
+  .module__configuracion .module__gallery .info .cont-thumbs .btn-ver-mas{
+    width: 90%
+  }
+  .module__configuracion .module__gallery .info .cont-thumbs button{
+    padding: 1px 13px;
+  }
+
+  .box__ticket .box-head .top .total .detalle .btn-detalle{
+    font-size: 11px;
+  }
+
+  .box__ticket .box-head .info-detalle .option-1 .item{
+    font-size: 11px;
+  }
+
+  .box__ticket .box-head .top .total .detalle .price{
+    font-size: 26px;
+  }
+
+  .box__ticket .box-head .top .total .detalle .imp{
+    font-size: 16px;
+  }
+
+  .box__ticket .box-head .info-detalle .option-2 .group-price .cant-pasajes{
+    font-size: 26px;
+  }
+  .box__ticket .box-head .info-detalle .option-2 .group-price .cant-pasajes-text{
+    font-size: 10px;
+  }
+  .btn-pink.ticket a{
+    font-size: 12px;
+  }
+  .btn-pink.ticket{
+    padding: 10px;
+  }
+
+  .box__ticket .box-footer .title{
+    font-size: 12px;
+  }
+  .box__ticket .box-footer .group-buttons-social a{
+    font-size: 12px;
+  }
+  .box__ticket .box-footer .group-buttons-social a i{
+    font-size: 16px;
+  }
+
+
+}
+
+
+@media (max-width:768px){
+  .interna-paquete .intro .trama.-one{
+    display: none;
+  }
+  .module__aside_ticket{
+    display: none;
+  }
+  .interna-paquete .module__aside_info{
+    padding-bottom: 0;
+  }
+  .interna-paquete .intro .title{
+    border-bottom: 1px solid #00205f;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .interna-paquete .intro .subtitle{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #00205f;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .interna-paquete .intro .subtitle .text{
+    border-bottom: none;
+    width: 100%;
+  }
+  .interna-paquete .intro .subtitle .ideal{
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 5px;
+  }
+  .interna-paquete .intro .subtitle .ideal .group-buttons .btn-config,
+  .interna-paquete .intro .subtitle .ideal .group-buttons .btn-photo{
+    width: 45px;
+    height: 45px;
+  }
+
+  .interna-paquete .module__aside_info{
+    width: 100%;
+  }
+
+  .module__features .listado{
+    justify-content: flex-start;
+  }
+  .module__features .listado .item {
+    width: 16%;
+  }
+
+  /*Gallery Mob*/
+  .module__configuracion .module__gallery.gallery-desk{
+    display: none;
+  }
+
+   .module__gallery.gallery-mob{
+      display: block;
+      margin-top: 50px;
+      margin-bottom: 60px;
+    }
+
+    .module__gallery.gallery-mob .title{
+      padding: 0 18px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .module__gallery.gallery-mob .title .btn-pink-outline{
+      padding: 5px 35px;
+      border: 2px solid #ff5c5c;
+    }
+
+    .module__gallery.gallery-mob .title h3{
+      font-family: "Rift Soft";
+      font-weight: bold;
+      font-size: 24px;
+      color: #00adee;
+      margin-top: 0;
+    }
+
+    .module__gallery.gallery-mob hr{
+      width: 80%;
+      margin: 0 auto;
+      border-top: 1px solid #00205f;
+    }
+
+    /* // Dots */
+    .module__gallery.gallery-mob .owl-theme .owl-dots{
+      text-align: center;
+      margin-top:30px;
+      margin-bottom: 10px;
+    }
+    .module__gallery.gallery-mob .owl-theme .owl-dot{
+        display: inline-block;
+    }
+
+    .module__gallery.gallery-mob .owl-theme .owl-dot.active span {
+      background-color: #00205f;
+    }
+
+    .module__gallery.gallery-mob .owl-theme .owl-dot span {
+        background: none repeat scroll 0 0 transparent;
+        border: 2px solid #00205f;
+        border-radius: 20px;
+        display: block;
+        height: 12px;
+        margin: 5px 7px;
+        opacity: 1;
+        width: 12px;
+    }
+    /* // Dots */
+
+    .module__configuracion .selectric{
+      height: 50px;
+    }
+
+    .module__configuracion .option .group-selectores .form .selectric-label{
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    /*Box Ticket*/
+    .ticket-mobile{
+      display: block;
+    }
+    .box__ticket{
+      background-color: #00adee;
+      width: 100%;
+      float: right;
+      z-index: 99999;
+      position: fixed;
+      bottom: -290px;
+      width: 100%;
+    }
+
+    .box__ticket .box-head {
+      padding: 10px 15px;
+    }
+    .box__ticket .box-head .top{
+      margin-bottom: 0;
+      padding-bottom: 20px;
+    }
+    .box__ticket .box-head .top .btn-detalle-mobile,
+    .box__ticket .box-footer .btn-detalle-mobile{
+      text-align: center;
+      margin: 5px 0;
+    }
+    .box__ticket .box-head .top .btn-detalle-mobile.open{
+      padding-bottom: 10px;
+      visibility: hidden;
+    }
+    .box__ticket .box-head .top .btn-detalle-mobile{
+      visibility: visible;
+      color: #fff;
+    }
+    .box__ticket .box-head .top .btn-detalle-mobile figure,
+    .box__ticket .box-footer .btn-detalle-mobile figure{
+      width: 15px;
+      display: inline-block;
+    }
+    .box__ticket .box-head .top .btn-detalle-mobile span,
+    .box__ticket .box-footer .btn-detalle-mobile span{
+      color: #fff;
+    }
+    .box__ticket .box-head .group-info-button{
+      width: 60%;
+      margin-bottom: 0;
+      margin-top:0;
+    }
+    .btn-pink.ticket a {
+      font-size: 14px;
+    }
+    .btn-pink.ticket a span {
+      font-family: "Rift Soft";
+      font-weight: bold;
+      font-size: 26px;
+    }
+    .box__ticket .box-head .info-detalle .option-1 .item {
+      font-size: 13px;
+    }
+
+    .box__ticket .box-head .info-detalle .option-2 figure {
+      width: 35px;
+      margin-right: 10px;
+      display: inline-block;
+      align-self: center;
+    }
+    .box__ticket .box-head .info-detalle .option-2 .group-price {
+      flex-basis: 70%;
+    }
+    .box__ticket .box-head .info-detalle .option-2 .group-price .cant-pasajes {
+      font-size: 34px;
+    }
+    .box__ticket .box-head .info-detalle .option-2 .group-price .cant-pasajes-text {
+      font-size: 14px;
+    }
+    .box__ticket .box-footer{
+      text-align: center;
+    }
+    .box__ticket .box-footer .title {
+      font-size: 16px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .box__ticket .box-footer .group-buttons-social {
+      text-align: center;
+      display: inline-block;
+    }
+    .box__ticket .box-footer .group-buttons-social a{
+      margin: 0;
+    }
+    .box__ticket .box-footer .group-buttons-social a i {
+      font-size: 30px;
+    }
+}
+
+
+
+@media (max-width:680px){
+  .interna-paquete .intro .title{
+    text-align: center;
+  }
+  .module__features .listado .item {
+    width: 48%;
+  }
+  .module__features .listado .item .text p{
+    font-size: 14px;
+  }
+  .module__configuracion .option .title{
+    text-align: center;
+  }
+  .module__configuracion .option.configura__alojamiento .info-adicional.-desk{
+    display: none;
+  }
+
+  .module__configuracion .option.configura__alojamiento .info-adicional.-mob{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .module__adicionales .info-adicional .listado{
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .module__configuracion .module__inforimporante .box .opciones .sub-opciones .item{
+    flex-basis: 100%;
+  }
+}
+
+
+@media (max-width:480px){
+  .highlight .-left.line {
+    left: -130px;
+  }
+  .highlight figure.line {
+    width: 240px;
+  }
+  .highlight.hl-interna-paquete figure.line.-one{
+    top: 110px;
+  }
+  .highlight.hl-interna-paquete figure.line.-two {
+    top: 120px;
+  }
+  .highlight .interna-paquete {
+    background: url(../images/hero/hl_interna_paquete_sm.png) center center no-repeat;
+    background-size: cover;
+    height: 430px;
+    position: relative;
+  }
+  .interna-paquete .intro .title h2{
+    font-size: 32px;
+  }
+
+
+
+
+  .module__configuracion .module__adicionales .info-adicional .listado .item{
+    display: inline;
+  }
+
+  .module__configuracion .module__adicionales .info-adicional .listado .item figure{
+    float: left;
+    width: 7%;
+  }
+
+  .module__configuracion .module__adicionales .info-adicional .listado .item .text{
+    float: left;
+    width: 88%;
+  }
+
+  .module__configuracion .module__adicionales .info-adicional .listado .item p{
+    font-size: 16px;
+  }
+}

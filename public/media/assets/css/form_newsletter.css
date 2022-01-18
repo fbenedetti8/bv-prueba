@@ -1,0 +1,170 @@
+.module__form{
+	background-color: #262e69;
+}
+
+.module__form .title {
+	text-align: center
+}
+
+.module__form .suscripcion_newsletter{
+	padding-top: 50px;
+	margin-bottom: 40px;
+}
+
+.module__form .suscripcion_newsletter .title * {
+	font-family: "Rift Soft";
+	font-weight: bold;
+	font-size: 24px;
+	color: #fff;
+	margin: 0;
+	display: inline-block;
+}
+
+.module__form .suscripcion_newsletter .title p {
+	display: inline-block;
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	margin-top: 10px;
+	color: #6ceed5;
+	font-weight: normal
+}
+
+
+
+.module__form .suscripcion_newsletter form {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+
+.module__form .suscripcion_newsletter  form .input{
+	width: 100%
+}
+
+.module__form .suscripcion_newsletter  form .input:nth-child(1){
+	margin-left: 0;
+}
+
+.module__form .suscripcion_newsletter form  .submit_block {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0
+}
+
+.module__form .suscripcion_newsletter form  .submit_block input {
+    padding: 7px 30px;
+    font-size: 15px
+}
+
+.module__form .suscripcion_newsletter form  .submit_block .btn-pink{
+	color: #fff;
+	border: 1px solid #ff5c5c;
+	font-weight: bold;
+	transition: all 0.2s;
+}
+
+.module__form .suscripcion_newsletter form  .submit_block .btn-pink:hover{
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.2s;
+}
+
+.module__form .suscripcion_newsletter form  input[type=text]{
+	border: none;
+	border-bottom: 2px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	display: inline-block;
+	padding: 5px;
+	width: 100%;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 8px 3px;
+	transition: all 0.5s;
+}
+
+.module__form .suscripcion_newsletter form input[type=text]:focus {
+	outline: none;
+	border-color: #ff5c5c;
+	transition: all 0.5s;
+}
+
+
+.module__form .suscripcion_newsletter form  input[type=text]::placeholder{
+	font-weight: 500;
+	font-size: 14px;
+	padding-bottom:8px;
+	color: #fff;
+}
+
+
+.module__form .selectric,
+.module__form .selectric-wrapper,
+.module__form .selectric .selectric-label {
+	background-color: transparent;
+	border: none
+}
+
+.module__form .selectric .selectric-label {
+	color: white;
+	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+	border-bottom: 2px solid white;
+	font-family: inherit
+}
+
+.module__form .selectric-label:before {
+	right: 0
+}
+
+.module__form .selectric-items {
+	border-radius: 0
+}
+
+.module__form .selectric-items .highlighted {
+	background-color: white
+}
+
+
+
+
+
+@media ( min-width: 991px ){
+
+	.module__form {
+		margin-bottom: 50px
+	}
+
+	.module__form .title {
+	    margin-bottom: 20px;
+	    text-align: left;
+	    margin-left: -1%
+	}
+
+	.module__form .suscripcion_newsletter {
+    	padding-top: 20px;
+    	margin: auto;
+		max-width: 940px
+	}
+
+	.module__form .suscripcion_newsletter form {
+		margin: 0 -1%;
+	}
+
+	.module__form .suscripcion_newsletter form .input {
+		width: 40%;
+		margin: 0 1%
+	}
+
+	.module__form .suscripcion_newsletter form .submit_block {
+		width: 17%;
+		padding: 0
+	}
+
+	.module__form .suscripcion_newsletter .title p {
+		margin: 0;
+		margin-left: 10px
+	}
+
+}

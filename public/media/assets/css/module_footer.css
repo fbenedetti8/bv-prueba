@@ -1,0 +1,222 @@
+.module__footer{
+	font-size: 0;
+	background-color: #252c60;
+		text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.module__footer .logo a {
+	width: 60px
+}
+
+
+
+
+.module__footer .options .footer-colum {
+	margin-top: 40px
+}
+
+.module__footer .options .footer-colum h4{
+	font-family: "Rift Soft";
+	font-weight: bold;
+	font-size: 24px;
+	color: #fff;
+	margin: 0
+}
+
+.module__footer .options .footer-colum .title {
+	margin-bottom: 20px
+}
+
+.module__footer .options .footer-colum .listado li{
+	line-height: 15px;
+	margin-bottom: 25px;
+}
+
+.module__footer .options .footer-colum .listado li.margin_separator {
+	margin: 10px 0;
+}
+
+.module__footer .options .footer-colum .listado li a{
+	font-weight: normal;
+	color: #fff;
+	font-size: 14px;
+	transition: color 0.2s;
+}
+
+.module__footer .options .footer-colum .listado li a:hover{
+	color: #73e5ff;
+	transition: color 0.2s;
+}
+
+.module__footer .options .footer-colum .listado li a:hover{
+	text-decoration: none;
+}
+
+.module__footer .options .footer-colum .listado li i {
+	color: #fff;
+	font-size: 17px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.module__footer .options .footer-colum.colum-oficina .listado li i {
+	margin-right: 10px
+}
+
+
+.module__footer .options .footer-colum .listado li i.fa-whatsapp {
+	font-size: 20px
+}
+
+.module__footer .options .footer-colum.colum-oficina .listado li p{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+
+.module__footer .options .footer-colum.colum-oficina p{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 25px;
+	color:#fff;
+}
+
+.module__footer .options .footer-colum.colum-oficina a{
+	font-weight:  500;
+	color:#ff5c5c;
+}
+
+.module__footer .options .footer-colum.colum-oficina a:hover{
+	text-decoration: none;
+}
+
+
+
+
+.module__footer .options .footer-colum.colum-social li{
+	display: inline-block;
+	width: auto;
+	margin: 0 8px;
+}
+
+
+
+.module__footer .options .footer-colum.colum-social li i{
+	font-size: 30px;
+}
+
+
+
+
+.module__footer .colum-afip {
+	margin-top: 30px
+}
+
+.module__footer .colum-afip a {
+	max-width: 50px
+}
+
+.module__derechos {
+	font-size: 0;
+	background-color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.module__derechos .block {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center
+}
+
+.module__derechos .megatravel {
+	margin-top: 10px;
+}
+
+.module__derechos .megatravel a {
+	max-width: 160px
+}
+
+.module__derechos p {
+  margin-bottom: 0;
+  float: left;
+  font-size: 12px;
+  display: inline-block;
+  width: 100%
+}
+
+.module__author {
+	text-align: center;
+	background-color: #e5e5e5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.module__author.id4you a {
+	max-width: 160px
+}
+
+
+
+@media ( min-width: 992px ){
+
+	.module__footer {
+		text-align: left
+	}
+
+	.module__footer .logo,
+	.module__footer .colum-afip,
+	.module__footer .options {
+		display: inline-block;
+		vertical-align: top
+	}
+
+	.module__footer .logo {
+		width: 8%
+	}
+
+	.module__footer .colum-afip {
+		width: 12%;
+		margin: 0
+	}
+
+	.module__footer .options {
+		width: 79%
+	}
+
+	.module__footer .options .footer-colum .listado li a {
+		font-size: 16px
+	}
+
+	.module__footer .options .footer-colum {
+	    width: 33%;
+	    text-align: left;
+	    margin: 0;
+	    display: inline-block;
+	    vertical-align: top;
+	}
+
+	.module__footer .options .footer-colum.colum-social {
+		text-align: center
+	}
+
+
+
+	.module__derechos .block {
+		width: 50%;
+		text-align: left
+	}
+
+	.module__derechos .block.megatravel {
+		text-align: right
+	}
+
+	.module__footer .colum-afip a {
+		max-width: 75px
+	}
+
+}

@@ -1,0 +1,133 @@
+.nav .menu {
+  background: transparent;
+}
+
+.nav .menu .burger-icon {
+  display: block;
+  /*width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;*/
+}
+
+.nav .menu .lista-menu li {
+  width:80%;
+  margin: 0 auto;
+  line-height:40px;
+  font-size: 1em;
+  color: #fff;
+  list-style-type: none;
+  border-bottom: 1px solid #ff7c79;
+  text-align: center;
+}
+
+.nav .menu .lista-menu li.nth-child(1){
+  border-top: 1px solid #ff7c79;
+}
+
+.nav .menu .lista-menu li.sb{
+  border-bottom: none;
+}
+
+.nav .dropdown.menu{
+  width: auto;
+  position: inherit;
+  right: inherit;
+  z-index: 40;
+  top: inherit;
+}
+
+.nav .menu {
+  /*height: 300px;
+  border-radius:0;*/
+  width: 250px;
+  position: absolute !important;
+  right: 208px;
+  z-index: 40;
+  top: 12px;
+/*  -webkit-animation: radio 1s 1;
+  -moz-animation: radio 1s 1;
+  -o-animation: radio 1s 1;
+  animation: radio 1s 1;*/
+}
+
+
+.nav .menu-abierto.open .btn-llamanos-red{
+  width: 100%;
+  border-radius: initial;
+  background-color: #ff5c5d;
+  color: #fff;
+}
+
+.nav .lista-abierta {
+  /* width: 100% !important;
+  height: 100% !important;*/
+  overflow: inherit;
+}
+
+.nav .lista-abierta.dropdown-menu{
+  width: 250px;
+  top: 40px;
+  border: none;
+  box-shadow: none;
+  background-color: #ff5c5d;
+  color: #fff;
+  border-radius: 0;
+  padding-bottom: 12px;
+}
+
+.nav .lista-abierta.dropdown-menu li a{
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  display: inline-block;
+}
+
+.nav .lista-abierta.dropdown-menu li a:hover{
+  color: #00205f;
+  background-color: transparent
+}
+
+.nav .lista-abierta figure{
+  display: inline-block;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.nav .lista-abierta figure img{
+  width: 100%;
+}
+
+
+/*
+@keyframes radio{
+  0%{
+    border-radius: 50%;
+  }
+  50%{
+    border-radius:50%;
+  }
+  75%{
+    border-radius:0 0 100% 0;
+  }
+  100%{
+    border-radius: 0 0 0 0;
+  }
+}
+@-webkit-keyframes radio{
+  0%{
+    border-radius: 50%;
+  }
+  50%{
+    border-radius:50%;
+  }
+  75%{
+    border-radius:0 0 100% 0;
+  }
+  100%{
+    border-radius: 0 0 0 0;
+  }
+}/*

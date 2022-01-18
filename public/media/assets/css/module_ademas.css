@@ -1,0 +1,253 @@
+.card-pack-ademas.type1 .desk{
+  display: block;
+}
+
+.card-pack-ademas.type1 .mob{
+  display: none;
+}
+
+.module__ademas .results{
+  float: right;
+  width: 76%;
+  background-color: #d9f8ff;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  padding: 10px 25px;
+}
+
+.module__ademas .option-results{
+  width: 98%;
+}
+
+.module__ademas .option-results .option-head .title .text{
+  font-family: "Rift Soft";
+  font-weight: 700;
+  font-size: 30px;
+  color: #00205f;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.module__ademas  .option-results .option-head{
+  border-bottom: 0;
+}
+
+
+/*Card Pack Ademas*/
+.card-pack-ademas.type1{
+  background-color: #fff;
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-pack-ademas.type1 .card-header{
+  float: left;
+  width: 45%;
+  position: relative;
+}
+
+.card-pack-ademas.type1 .card-header .group-buttons{
+  position: absolute;
+  top: 6%;
+  right: 5%;
+}
+
+.card-pack-ademas.type1 .card-header .group-buttons span{
+  background-color: #22275b;
+  width:30px;
+  height: 30px;
+  border-radius: 100px;
+  border:none;
+}
+
+.card-pack-ademas.type-1 .card-header .group-buttons span:hover{
+  background-color: #313456;
+}
+
+.card-pack-ademas.type1 .card-header .group-buttons .btn-photo{
+  background: url('../images/icons/icon-photo.png') center center no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background-size: 100% auto;
+}
+
+.card-pack-ademas.type1 .card-header .group-buttons .btn-config{
+  background: url('../images/icons/icon-config.png') center center no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background-size: 100% auto;
+}
+
+
+
+
+.card-pack-ademas.type1 .card-body{
+  float: left;
+  width: 55%;
+  padding: 8px 20px 0 20px;
+}
+
+.card-pack-ademas.type1 .card-body .group-text{
+  margin-bottom: 30px;
+}
+
+.card-pack-ademas.type1 .card-body .group-text .title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+.card-pack-ademas.type1 .card-body .group-text .title .text{
+
+}
+.card-pack-ademas.type1 .card-body .group-text .title .text{
+  display: inline-block;
+  font-family: "Rift Soft";
+  font-size: 22px;
+  color: #00205f;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.card-pack-ademas.type1 .card-body .group-text .title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.card-pack-ademas.type1 .card-body .group-data-info{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+
+.card-pack-ademas.type1 .card-body .group-data-info .text-default {
+  font-family: "Rift Soft";
+  font-weight: bold;
+  font-size: 40px;
+  color: #00aeef;
+  margin-bottom: 0;
+}
+
+.card-pack-ademas.type1 .card-body .group-data-info .group-options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.card-pack-ademas.type1 .card-body .group-data-info .group-options .option-1{
+  align-self: center;
+}
+
+
+.card-pack-ademas.type1 .card-body .group-data-info .group-info-button{
+  display: inline-block;
+  align-self: center;
+}
+
+
+@media (max-width:1200px){
+  .card-pack-ademas.type1 .card-body .group-text {
+    margin-bottom: 0px;
+  }
+  .card-pack-ademas.type1 .card-body .group-data-info .text-default{
+    font-size: 30px;
+  }
+  .card-pack-ademas.type1 .card-body .group-text .description{
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width:992px){
+  .module__ademas .results{
+    width: 82%;
+  }
+  .module__ademas .option-results{
+    width: 100%;
+  }
+  .card-pack-ademas.type1 .card-body{
+    padding: 8px 10px 0 10px;
+  }
+  .card-pack-ademas.type1 .card-body .group-text .title .text{
+    font-size: 18px;
+  }
+  .card-pack-ademas.type1 .card-body .group-text .description {
+    font-size: 11px;
+  }
+  .card-pack-ademas.type1 .card-body .group-data-info .text-default{
+    font-size: 22px;
+  }
+  .card-pack-ademas.type1 .card-body .group-data-info .group-info-button .btn{
+    padding: 4px 15px;
+  }
+}
+
+
+@media (max-width:670px){
+  .card-pack-ademas.type1{
+    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-pack-ademas.type1 .desk{
+    display: none;
+  }
+
+  .card-pack-ademas.type1 .mob{
+    display: block;
+  }
+
+  .module__ademas .results{
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .module__ademas .option-results{
+    width: 100%;
+  }
+
+  .card-pack-ademas.type1 .mob .card-header{
+    width: 100%;
+  }
+
+  .card-pack-ademas.type1 .mob .card-body{
+    width: 100%;
+    padding: 17px 15px 7px 15px;
+  }
+
+  .card-pack-ademas.type1 .mob .card-body .group-text .title .text{
+    font-size: 22px;
+  }
+
+  .card-pack-ademas.type1 .mob .card-body .group-text .description {
+    font-size: 13px;
+  }
+
+  .card-pack-ademas.type1 .mob .card-body .group-data-info .group-info-button .btn{
+    padding: 4px 15px;
+  }
+
+  .card-pack-ademas.type1 .mob .card-body .group-data-info .group-info-button {
+    display: block;
+    align-self: center;
+    width: 30%;
+    text-align: right;
+  }
+
+  .card-pack-ademas.type1 .mob .card-body .group-data-info .group-info-button .btn{
+    padding: 10px 13px;
+    border-radius: 80px;
+  }
+
+  .card-pack-ademas.type1 .mob .card-body .group-data-info .group-info-button .btn img{
+    width: 50%;
+  }
+
+
+}

@@ -1,0 +1,578 @@
+.card-pack.type1 .desk{
+  display: block;
+}
+.card-pack.type1 .mob{
+  display: none;
+}
+
+.card-pack.type1{
+  background-color: #fff;
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-pack.type1 .card-header{
+  float: left;
+  width: 35%;
+  position: relative;
+}
+
+.card-pack.type1 .card-header .group-buttons{
+  position: absolute;
+  top: 6%;
+  right: 5%;
+}
+
+.card-pack.type1 .card-header .group-buttons span{
+  background-color: #22275b;
+  width:30px;
+  height: 30px;
+  border-radius: 100px;
+  border:none;
+}
+
+.card-pack.type-1 .card-header .group-buttons span:hover{
+  background-color: #313456;
+}
+
+.card-pack.type1 .card-header .group-buttons .btn-photo{
+  background: url('../images/icons/icon-photo.png') center center no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background-size: 100% auto;
+}
+
+.card-pack.type1 .card-header .group-buttons .btn-config{
+  background: url('../images/icons/icon-config.png') center center no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background-size: 100% auto;
+}
+
+.card-pack.type1 .card-body{
+  float: left;
+  width: 65%;
+  padding: 8px 20px 0 20px;
+}
+
+.card-pack.type1 .card-body .group-text{
+  border-bottom: 1px solid #22275b;
+  padding-bottom: 5px;
+}
+
+.card-pack.type1 .card-body .group-text .title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.card-pack.type1 .card-body .group-text .title .text{
+  display: inline-block;
+  font-family: "Rift Soft";
+  font-weight: normal;
+  font-size: 22px;
+  color: #00adee;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.card-pack.type1 .card-body .group-text .title .text strong{
+  font-family: "Rift Soft";
+  font-weight: 700;
+}
+
+.card-pack.type1 .card-body .group-text .title figure{
+  display: inline-block;
+  align-self: center;
+  width: 45px;
+  margin-right: 5px;
+}
+
+.card-pack.type1 .card-body .group-text .title figure.tour,
+.card-pack.type1 .card-body .group-text .title figure.avion,
+.card-pack.type1 .card-body .group-text .title figure.bus{
+  width: 35px;
+}
+
+.card-pack.type1 .card-body .group-text .time{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-pack.type1 .card-body .group-text .time{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-pack.type1 .card-body .group-text .date{
+  width: 50%
+}
+
+.card-pack.type1 .card-body .group-text .date p,
+.card-pack.type1 .card-body .group-text .start p{
+  margin-bottom: 0;
+  font-family: "Helvetica Neue LT STD";
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.card-pack.type1 .card-body .group-text .date p strong,
+.card-pack.type1 .card-body .group-text .start p strong{
+  font-weight: bold;
+}
+
+.card-pack.type1 .card-body .group-text .start{
+  width: 50%
+}
+
+
+.card-pack.type1 .card-body .group-data-info{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+
+.card-pack.type1 .card-body .group-data-info .group-options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.card-pack.type1 .card-body .group-data-info .option-1,
+.card-pack.type1 .card-body .group-data-info .option-2,
+.card-pack.type1 .card-body .group-data-info .option-3{
+  display: inline-block;
+  height: 64px;
+  overflow: hidden;
+  flex-basis: 33%;
+}
+
+
+
+.card-pack.type1 .card-body .group-data-info .option-1 .title,
+.card-pack.type1 .card-body .group-data-info .option-2 .title{
+  font-family: "Helvetica Neue LT STD";
+  font-size: 12px;
+  color: #262e69;
+  margin-bottom: 0;
+}
+
+
+
+.card-pack.type1 .card-body .group-data-info .option-2 .title.now{
+  font-family: "Helvetica Neue LT STD";
+  color: #ff5c5c;
+  font-weight: 900;
+}
+
+.card-pack.type1 .card-body .group-data-info .option-1 .group-price .price,
+.card-pack.type1 .card-body .group-data-info .option-2 .group-price .price{
+  font-family: "Rift Soft";
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.card-pack.type1 .card-body .group-data-info .option-3 .group-price .cant-pasajes{
+  font-family: "Rift Soft";
+  font-weight: normal;
+  font-size:24px;
+  margin-bottom: 0;
+}
+
+.card-pack.type1 .card-body .group-data-info .option-3 .group-price .cant-pasajes strong{
+  font-family: "Rift Soft";
+  font-weight: bold;
+
+}
+
+.card-pack.type1 .card-body .group-data-info .group-price .price{
+  width: 80%;
+}
+
+.card-pack.type1 .card-body .group-data-info .option-1 .group-price .price-imp,
+.card-pack.type1 .card-body .group-data-info .option-2 .group-price .price-imp{
+  font-family: "Rift Soft";
+  font-weight: bold;
+  font-size: 16px;
+  color: #00aeef;
+  margin-bottom: 0;
+}
+
+.card-pack.type1 .card-body .group-data-info .option-3 figure{
+  width: 12px;
+}
+
+.card-pack.type1 .card-body .group-data-info .option-3 .group-price .cant-pasajes-text{
+  font-family: "Helvetica Neue LT STD";
+  font-weight:bold;
+  font-size: 11px;
+}
+
+.card-pack.type1 .card-body .group-data-info .group-info-button{
+  display: inline-block;
+  align-self: center;
+}
+
+
+
+@media (max-width:1200px){
+
+  .card-pack.type1 .card-body{
+    padding-top: 2px;
+  }
+  .card-pack.type1 .card-body .group-text .title{
+    margin-bottom: 3px;
+  }
+  .card-pack.type1 .card-body .group-text .start p:nth-child(2){
+    height: 20px;
+    overflow: hidden;
+  }
+  .card-pack.type1 .card-body .group-text .date p,
+  .card-pack.type1 .card-body .group-text .start p{
+    font-size: 12px;
+  }
+
+  .card-pack.type1 .card-body .group-text{
+    padding-bottom: 0;
+  }
+
+  .card-pack.type1 .card-body .group-text .title figure{
+    width: 35px;
+  }
+  .card-pack.type1 .card-body .group-text .title .text{
+    font-size: 20px;
+  }
+
+  .card-pack.type1 .card-body .group-data-info .option-1 .group-price .price,
+  .card-pack.type1 .card-body .group-data-info .option-2 .group-price .price,
+  .card-pack.type1 .card-body .group-data-info .option-3 .group-price .cant-pasajes{
+    font-size: 18px;
+  }
+
+
+    .card-pack.type1 .card-body .group-data-info{
+      padding-top: 9px;
+    }
+
+  .card-pack.type1 .card-body .group-data-info .option-1 .title,
+  .card-pack.type1 .card-body .group-data-info .option-2 .title{
+    font-size: 10px;
+  }
+
+  .card-pack.type1 .card-body .group-data-info .option-1 .group-price .price-imp, .card-pack.type1 .card-body .group-data-info .option-2 .group-price .price-imp{
+    font-size: 12px;
+  }
+
+
+  .card-pack.type1 .card-body .group-data-info .option-3 .group-price .cant-pasajes-text{
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width:992px){
+  .card-pack.type1 .card-header {
+    width: 38%;
+  }
+  .card-pack.type1 .card-body {
+    width: 62%;
+    padding: 2px 10px 0 10px;
+  }
+  .card-pack.type1 .card-body .group-text .date p,
+  .card-pack.type1 .card-body .group-text .start p{
+    font-size: 11px;
+  }
+  .card-pack.type1 .card-body .group-data-info .option-1 .group-price .price,
+  .card-pack.type1 .card-body .group-data-info .option-2 .group-price .price,
+  .card-pack.type1 .card-body .group-data-info .option-3 .group-price .cant-pasajes{
+    font-size: 16px;
+  }
+  .card-pack.type1 .card-body .group-data-info .option-3 .group-price .cant-pasajes-text {
+    font-size: 8px;
+    margin-bottom: 0;
+  }
+  .card-pack.type1 .card-body .group-data-info {
+    padding-top: 2px;
+  }
+  .card-pack.type1 .card-body .group-data-info .option-1,
+  .card-pack.type1 .card-body .group-data-info .option-2,
+  .card-pack.type1 .card-body .group-data-info .option-3{
+    height: 50px;
+  }
+  .card-pack.type1 .card-body .group-data-info .group-info-button .btn{
+    padding: 4px 15px;
+  }
+  .card-pack.type1 .card-header .group-buttons .btn-photo,
+  .card-pack.type1 .card-header .group-buttons .btn-config{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
+@media (max-width:768px){
+  .card-pack.type1 .card-body .group-text .title figure.tour,
+  .card-pack.type1 .card-body .group-text .title figure.avion,
+  .card-pack.type1 .card-body .group-text .title figure.bus{
+    width: 30px
+  }
+}
+
+
+@media (max-width:670px){
+  .card-pack.type1{
+    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.1);
+  }
+  .card-pack.type1 .desk{
+    display: none;
+  }
+  .card-pack.type1 .mob{
+    display: block;
+  }
+
+
+  .card-pack.type1 .mob .card-header {
+    width: 100%;
+  }
+  .card-pack.type1 .mob .card-body {
+    width: 100%;
+    padding: 17px 15px 7px 15px;
+  }
+  .card-pack.type1 .card-header .group-buttons .btn-photo,
+  .card-pack.type1 .card-header .group-buttons .btn-config {
+    width: 35px;
+    height: 35px;
+  }
+
+  .card-pack.type1 .card-body .group-text{
+    border-bottom: 0;
+  }
+
+  .card-pack.type1 .card-body .group-text .title{
+    margin-bottom: 5px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .title .text {
+    font-size: 22px;
+  }
+
+  .card-pack.type1 .card-body .group-text .title figure{
+    align-self: flex-start;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .time {
+    display: block;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .date p,
+  .card-pack.type1 .mob .card-body .group-text .start p {
+    font-size: 13px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .date {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaf5f4;
+    padding-bottom: 10px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .date .arrow{
+    align-self: center;
+    margin-right: 10px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .date.collapsed .arrow::before{
+    content: '';
+    background: url(../images/icons/icon-arrow-up.png) center center no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: 80%;
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .date .arrow::before{
+    content: '';
+    background: url(../images/icons/icon-arrow-down.png) center center no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: 80%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .start {
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px solid #eaf5f4;
+    padding-bottom: 10px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #eaf5f4;
+    padding-bottom: 0;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1 figure{
+    width: 35px;
+    display: inline-block;
+    align-self: center;
+    margin-right: 15px;
+  }
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1 .group-price{
+    display: inline-block;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1 .group-price p,
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1 .group-price .cant-pasajes p strong{
+    margin-bottom: 0;
+    display: inline-block;
+    font-family: "rift soft";
+    font-weight: bold;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1 .group-price .cant-pasajes{
+    font-size: 38px;
+    font-family: "rift soft";
+    font-weight: normal;
+  }
+
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1 .group-price .cant-pasajes-text{
+    font-family: "Helvetica neue LT STD";
+    font-weight: bold;
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+    line-height: 15px;
+  }
+
+  .card-pack.type1 .card-body .group-data-info {
+    padding-top: 10px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .option-1,
+  .card-pack.type1 .mob .card-body .group-data-info .option-2,
+  .card-pack.type1 .mob .card-body .group-data-info .option-3{
+    height: 64px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .option-1 .title,
+  .card-pack.type1 .mob .card-body .group-data-info .option-2 .title {
+    font-size: 12px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .option-1 .group-price .price,
+  .card-pack.type1 .mob .card-body .group-data-info .option-2 .group-price .price,
+  .card-pack.type1 .mob .card-body .group-data-info .option-3 .group-price .cant-pasajes{
+    font-size: 24px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .option-1 .group-price .price-imp,
+  .card-pack.type1 .mob .card-body .group-data-info .option-2 .group-price .price-imp{
+    font-size: 16px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .group-options {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .option-1,
+  .card-pack.type1 .mob .card-body .group-data-info .option-2,
+  .card-pack.type1 .mob .card-body .group-data-info .option-3{
+    width: 40%;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .group-price .price {
+    width: 70%;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .group-info-button {
+    display: block;
+    align-self: center;
+    width: 30%;
+    text-align: right;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .group-info-button .btn{
+    padding: 10px 13px;
+    border-radius: 80px;
+  }
+
+  .card-pack.type1 .mob .card-body .group-data-info .group-info-button .btn img{
+    width: 50%;
+  }
+
+
+
+  .card-pack.type1 .card-body .group-data-info{
+    position: relative;
+  }
+
+}
+
+
+
+@media (max-width:510px){
+  .card-pack.type1 .mob .card-body .group-data-info .option-1,
+  .card-pack.type1 .mob .card-body .group-data-info .option-2,
+  .card-pack.type1 .mob .card-body .group-data-info .option-3{
+    width: 49%;
+  }
+}
+
+
+@media (max-width:480px){
+  .card-pack.type1 .card-body .group-text .title figure.tour,
+  .card-pack.type1 .card-body .group-text .title figure.avion,
+  .card-pack.type1 .card-body .group-text .title figure.bus {
+    width: 50px;
+  }
+  .card-pack.type1 .mob .card-body .group-data-info .option-1,
+  .card-pack.type1 .mob .card-body .group-data-info .option-2,
+  .card-pack.type1 .mob .card-body .group-data-info .option-3{
+    width: 43%;
+  }
+  .card-pack.type1 .mob .card-body .group-data-info .group-price .price {
+    width: 80%;
+  }
+}
+
+
+@media (max-width:425px){
+  .card-pack.type1 .card-body .group-text .title figure.tour,
+  .card-pack.type1 .card-body .group-text .title figure.avion,
+  .card-pack.type1 .card-body .group-text .title figure.bus {
+    width: 40px;
+  }
+  .card-pack.type1 .mob .card-body .group-data-info .option-1,
+  .card-pack.type1 .mob .card-body .group-data-info .option-2,
+  .card-pack.type1 .mob .card-body .group-data-info .option-3{
+    width: 48%;
+  }
+  .card-pack.type1 .mob .card-body .group-data-info .group-price .price {
+    width: 95%;
+  }
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1 figure{
+    margin-right: 0;
+  }
+  .card-pack.type1 .mob .card-body .group-text .more-options .option-1 .group-price .cant-pasajes-text{
+    margin-left: 0;
+  }
+}
